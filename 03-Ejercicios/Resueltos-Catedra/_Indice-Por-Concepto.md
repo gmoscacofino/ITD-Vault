@@ -13,6 +13,7 @@
 | [[Material 10/Caso III - DevArg CRM Empresa Peruana\|Mat 10 · Caso III]] | ✅ SÍ (parcial) | Solo se puede usar si hay Ganancias a pagar; con pérdida se pierde |
 | [[Material 11/Caso I - Franquicia Detroit Brasil\|Mat 11 · Caso I]] | ✅ SÍ | Fuente extranjera + gross-up previo + límite alícuota AR (30%) |
 | [[../../04-Parciales-Anteriores/Diciembre 2025/Resolucion\|Parcial Dic 2025]] | A1 ❌ / A2-A3 ✅ | A1 prestado en AR = fuente AR = costo. A2/A3 en BR = fuente extranjera = tax credit que se cancela contra retención |
+| [[../../04-Parciales-Anteriores/Recuperatorio 2do Cuatrim 2025/Resolucion\|Recuperatorio 2025]] | A1 ❌ / A2 ✅ | Filmado en AR = fuente AR = retenciones CDI son costo. Filmado en Chile = fuente extranjera = tax credit |
 
 **Patrón:** el tax credit depende de la **fuente** del ingreso. Y solo sirve si hay impuesto argentino contra el cual imputarlo. Cuando tax credit = costo retención exterior, el efecto neto en caja es neutro (no hay doble imposición).
 
@@ -24,6 +25,7 @@
 |---|---|---|
 | [[Material 07/Caso 1 - Empresa UK Presta en Argentina\|Mat 07 · Caso 1]] | Neto → Bruto (empresa AR asume impuestos) | `Bruto = Neto / (1 − tasa efectiva)` |
 | [[Material 11/Caso I - Franquicia Detroit Brasil\|Mat 11 · Caso I]] | Neto cobrado → Bruto declarable (retención extranjera) | `Bruto = Neto / (1 − tasa retención)` |
+| [[../../04-Parciales-Anteriores/Recuperatorio 2do Cuatrim 2025/Resolucion\|Recuperatorio 2025]] | Neto en mano Gordon → Bruto base retención CDI + IVA sustituto | `Retención: 160k/0,90 = 177.777,78` / `IVA: 160k × 21/79 = 42.531,65` |
 
 **Patrón:** siempre dividir por `(1 − tasa)`, nunca sumar la tasa al neto.
 
@@ -37,6 +39,7 @@
 | [[Material 07/Caso 3 - Big Data Argentina Gobierno Frances\|Mat 07 · Caso 3]] | Extranjera | Personal viaja y trabaja físicamente en Francia |
 | [[Material 10/Caso I - Software Cadbury UK Argentina Uruguay\|Mat 10 · Caso I]] | Extranjera (desde UK) | Equipo trabaja físicamente en UK |
 | [[Material 11/Caso I - Franquicia Detroit Brasil\|Mat 11 · Caso I]] | Extranjera | Utilización económica en Brasil |
+| [[../../04-Parciales-Anteriores/Recuperatorio 2do Cuatrim 2025/Resolucion\|Recuperatorio 2025]] | A1: AR / A2: Extranjera | Filmado en AR → fuente AR. Filmado en Chile → fuente extranjera |
 
 **Patrón:** la fuente la define **dónde se ejecuta la actividad**, no dónde está el cliente ni dónde se cobra.
 
@@ -224,6 +227,7 @@
 | [[Material 10/Caso I - Software Cadbury UK Argentina Uruguay\|Mat 10 · Caso I]] | Parcial (20% UY exento, 80% AR gravado) | La porción utilizada en AR no es exportación |
 | [[Material 10/Caso III - DevArg CRM Empresa Peruana\|Mat 10 · Caso III]] | ✅ SÍ (100%) | Servicio que se efectiviza íntegramente en el exterior |
 | [[Material 11/Caso I - Franquicia Detroit Brasil\|Mat 11 · Caso I]] | ✅ SÍ (100%) | Servicio que se efectiviza íntegramente en el exterior |
+| [[../../04-Parciales-Anteriores/Recuperatorio 2do Cuatrim 2025/Resolucion\|Recuperatorio 2025]] | ✅ SÍ (100%) | Derechos de exhibición utilizados 100% en Chile, Brasil, México |
 
 **Patrón:** no alcanza con que el cliente sea del exterior. El servicio debe efectivizarse afuera. Si hay uso parcial en AR, la exención aplica solo a la porción exterior.
 
@@ -236,6 +240,7 @@
 | [[Material 10/Caso I - Software Cadbury UK Argentina Uruguay\|Mat 10 · Caso I]] | Débitos (sueldos) + créditos (cobro) | (500K + 350K) × 0,6% = USD 5.100 |
 | [[Material 10/Caso II - ARGSecurity Consultoria BMV Argentina\|Mat 10 · Caso II]] | Débitos + créditos por opción | Varía según si el costo genera débito bancario |
 | [[Material 11/Caso I - Franquicia Detroit Brasil\|Mat 11 · Caso I]] | Al acreditar cobro en cuenta bancaria | 600K × 0,6% = USD 3.600 |
+| [[../../04-Parciales-Anteriores/Recuperatorio 2do Cuatrim 2025/Resolucion\|Recuperatorio 2025]] | Ingresos (cobro neto) + egresos (incl. IVA recuperable) | Régimen Resto: 2/3 pérdida + 1/3 crédito Ganancias |
 
 **Patrón:** presente en toda operación que cobra/paga por cuenta bancaria. Siempre incluirlo.
 
@@ -259,6 +264,27 @@
 | [[Material 09/Caso V - IVA IIBB Automotriz Cuotas USD\|Mat 09 · Caso V]] | IVA neto a pagar | Egreso real → pago inicial mínimo para cubrirlo |
 
 **Patrón:** IDyCB se calcula sobre los movimientos bancarios reales, incluyendo pagos a AFIP por IVA. Aunque el IVA sea neutro en el P&L, el movimiento de caja existe.
+
+---
+
+## Rentabilidad sobre costos como criterio de decisión
+
+| Caso | Umbral | Consecuencia |
+|---|---|---|
+| [[../../04-Parciales-Anteriores/Recuperatorio 2do Cuatrim 2025/Resolucion\|Recuperatorio 2025]] | ≥ 30% | A1 = 16,15% → RECHAZA; A2 = 30,83% → ACEPTA |
+
+**Patrón:** resultado positivo no alcanza. Siempre calcular `rentabilidad = resultado / costos totales` y comparar con el umbral pedido.
+
+---
+
+## IVA sustituto — Necesidad financiera vs costo en P&L
+
+| Caso | ¿Costo P&L? | ¿Necesidad financiera? | Clave |
+|---|---|---|---|
+| [[Material 07/Caso 1 - Empresa UK Presta en Argentina\|Mat 07 · Caso 1]] | ❌ NO (CF recuperable) | ✅ SÍ (egreso hasta recupero) | El sustituto es transitorio; el CF vuelve el mes siguiente |
+| [[../../04-Parciales-Anteriores/Recuperatorio 2do Cuatrim 2025/Resolucion\|Recuperatorio 2025]] | ❌ NO (CF recuperable) | ✅ SÍ (42.531,65) | IVA Gordon: no impacta resultado pero sí el dinero necesario |
+
+**Patrón:** al calcular "cuánto dinero necesito", incluir el IVA sustituto aunque sea recuperable. Al calcular resultado (P&L), excluirlo.
 
 ---
 
@@ -286,3 +312,4 @@
 | Mat 11 · Caso I | Gross-up, Tax credit ✅, IVA tasa 0%, IIBB exenta, IDyCB |
 | Mat 11 · Caso II | IVA exención, pérdida neutralidad, sustituto desaparece |
 | Parcial Dic 2025 | Precio todo incluido (gross-down), Tax credit vs costo, Exportación parcial, IDyCB sobre egresos AFIP |
+| Recuperatorio 2025 | Exportación total (distribución por ventas), Tax credit A1 ❌/A2 ✅, Gross-up Gordon, IVA sustituto ≠ costo, Rentabilidad mínima 30% |
