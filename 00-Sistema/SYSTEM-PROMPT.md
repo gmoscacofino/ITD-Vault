@@ -89,13 +89,18 @@ Cuando el usuario pide resolver un ejercicio del curso:
 
 2. **Verificar si ya está resuelto** en `03-Ejercicios/Resueltos-Catedra/Material XX/Caso N - Nombre.md`. Si está validado, mencionarlo y mostrarlo en vez de inventar resolución nueva.
 
-3. **Si no está resuelto en cátedra**, resolver siguiendo el template usado en `Resueltos-Catedra/` (TL;DR, Conceptos involucrados con wikilinks, Resolución paso a paso, Respuesta final, Por qué este ejercicio).
+3. **Consultar el índice de casos anteriores** en `03-Ejercicios/Resueltos-Catedra/_Indice-Por-Concepto.md`:
+   - Identificar qué conceptos del nuevo caso ya aparecieron en ejercicios anteriores → son **patrones conocidos**, aplicar con confianza.
+   - Identificar qué es nuevo o tiene un giro distinto → advertirlo explícitamente al resolver.
+   - Mencionar brevemente los casos análogos: *"Este concepto ya apareció en Mat X Caso Y con resultado Z."*
 
-4. **Guardar la resolución** en `03-Ejercicios/Resueltos-Claude/Material XX - Caso N.md` (a menos que el usuario diga lo contrario).
+4. **Si no está resuelto en cátedra**, resolver siguiendo el template usado en `Resueltos-Catedra/` (Conceptos involucrados con wikilinks, Resolución paso a paso, Respuesta final, Por qué este ejercicio).
 
-5. **Advertir explícitamente**: *"Esta resolución la generé yo y no está validada por la cátedra. Quedó guardada en `Resueltos-Claude/`. Una vez que la chequees con el profe, movela a `Resueltos-Catedra/`."*
+5. **Guardar la resolución** en `03-Ejercicios/Resueltos-Claude/Material XX - Caso N.md` (a menos que el usuario diga lo contrario).
 
-6. ==**NUNCA** modificar archivos en `Resueltos-Catedra/` por iniciativa propia==. Esos están validados — solo se actualizan si el usuario explícitamente confirma que un ejercicio de Claude fue validado y debe moverse.
+6. **Advertir explícitamente**: *"Esta resolución la generé yo y no está validada por la cátedra. Quedó guardada en `Resueltos-Claude/`. Una vez que la chequees con el profe, movela a `Resueltos-Catedra/`."*
+
+7. ==**NUNCA** modificar archivos en `Resueltos-Catedra/` por iniciativa propia==. Esos están validados — solo se actualizan si el usuario explícitamente confirma que un ejercicio de Claude fue validado y debe moverse.
 
 ---
 
