@@ -57,6 +57,33 @@ Bruto = Neto / (1 - tasa efectiva)
 ```
 Ejemplo: USD 175.000 netos al 31,5% → 175.000 / 0,685 = **USD 255.474,45 brutos**.
 
+### Precio "todo incluido" → gross-down del IVA
+```
+Neto gravado = Precio total / 1,21
+IVA incluido = Precio total - Neto gravado
+```
+==Cuando el precio es "por todo concepto" e IVA aplica, el ingreso neto es MENOR al precio. No hacer el gross-down sobreestima el ingreso en un 21%.==
+
+### Exportación parcial — distribución de uso
+```
+% uso en jurisdicción X = Ventas en X / Ventas totales en todas las jurisdicciones
+```
+La proporción de IVA (0% vs 21%), IIBB (exento vs gravado) y fuente (AR vs extranjera) se aplican sobre esos porcentajes.
+
+### Rentabilidad sobre costos (criterio de aceptación)
+```
+Rentabilidad = Resultado neto / Costos totales
+```
+==Si la consigna pide "mínimo X% sobre costos", el denominador son los COSTOS, no el ingreso. Errores típicos: dividir por ingreso o no verificar el umbral.==
+
+### IDyCB — Régimen Resto
+```
+IDyCB total = movimientos bancarios × 0,6%
+  → 2/3 = pérdida (costo P&L)
+  → 1/3 = crédito a cuenta de Ganancias
+```
+El IDyCB se calcula sobre TODOS los movimientos bancarios reales, incluyendo pagos de IVA a AFIP, aunque el IVA sea neutro en el P&L.
+
 ### Tax credit — límite
 ```
 Tax credit aplicable = min(retención del exterior, alícuota AR × renta de fuente extranjera)
@@ -113,13 +140,16 @@ Base = Ventas - IVA - reintegros de gastos - reintegros de capital (préstamos) 
 1. ==Aplicar 35% pleno en vez de tasa efectiva del Art. 93== (90% × 35% = 31,5%, etc.).
 2. ==Olvidar el gross-up cuando el AR asume el impuesto.==
 3. ==Confundir fuente AR vs fuente extranjera en home office==. Home office = fuente AR = NO hay tax credit.
-4. ==Asumir que cesión temporal de marca es como cesión definitiva== (la temporal está gravada, la definitiva no).
-5. ==Olvidar IDyCB== en cálculos integrales (es chico pero está siempre).
-6. ==Pensar que exportación de servicios está "exenta" de IVA==. NO: tasa 0% (distinto: permite computar CF).
-7. ==Aplicar Régimen Especial 20/80 a una sociedad==. NO: solo individuos.
-8. ==No verificar el período del Art. 24== en pagos a vinculadas del exterior.
-9. ==Olvidar la teoría de la unicidad== cuando hay intereses asociados a una venta principal.
-10. ==Asumir que el bien de uso siempre está fuera de IIBB==. Si lo desafectaste antes de venderlo, no.
+4. ==No hacer gross-down cuando el precio es "todo incluido" y aplica IVA==. Precio / 1,21 ≠ Precio.
+5. ==Asumir que cesión temporal de marca es como cesión definitiva== (la temporal está gravada, la definitiva no).
+6. ==Olvidar IDyCB== en cálculos integrales (es chico pero está siempre).
+7. ==Incluir el IVA sustituto (recuperable) como costo en el P&L==. No lo es, pero SÍ es necesidad financiera.
+8. ==Pensar que exportación de servicios está "exenta" de IVA==. NO: tasa 0% (distinto: permite computar CF).
+9. ==Aplicar Régimen Especial 20/80 a una sociedad==. NO: solo individuos.
+10. ==No verificar el período del Art. 24== en pagos a vinculadas del exterior.
+11. ==Olvidar la teoría de la unicidad== cuando hay intereses asociados a una venta principal.
+12. ==Asumir que el bien de uso siempre está fuera de IIBB==. Si lo desafectaste antes de venderlo, no.
+13. ==Calcular rentabilidad sobre el ingreso en vez de sobre los costos==. El denominador es costos totales.
 
 ---
 

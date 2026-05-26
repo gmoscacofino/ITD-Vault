@@ -184,3 +184,15 @@ El IVA en responsable sustituto se calcula sobre el **bruto** (después del gros
 - [[IVA - Servicios Digitales B2C]] — el régimen para B2C
 - [[Ganancias - Beneficiarios del Exterior]] — retención de Ganancias en paralelo
 - [[Gross-up]] — cálculo cuando se asume el costo
+---
+
+## Casos en el vault donde aparece este concepto
+
+| Caso | Situación | Consecuencia |
+|---|---|---|
+| [[../../03-Ejercicios/Resueltos-Catedra/Material 07/Caso 1 - Empresa UK Presta en Argentina\|Mat 07 · Caso 1]] | Empresa UK presta en AR → RI actúa como sustituto | CF al mes siguiente; neutro económicamente |
+| [[../../03-Ejercicios/Resueltos-Catedra/Material 10/Caso II - ARGSecurity Consultoria BMV Argentina\|Mat 10 · Caso II]] | Empresa uruguaya, utilización en AR | Sustituto 17.850 > DF 17.355 → saldo a favor |
+| [[../../03-Ejercicios/Resueltos-Catedra/Material 10/Caso III - DevArg CRM Empresa Peruana\|Mat 10 · Caso III]] | Empresa peruana → IVA AR como sustituto (neutro) + IVA peruano (costo) | Distinguir: AR = recuperable; extranjero = costo real |
+| [[../../03-Ejercicios/Resueltos-Catedra/Material 11/Caso II - Telefonia IP Exencion IVA\|Mat 11 · Caso II]] | Empresa deja de ser RI → obligación de sustituto desaparece | IVA del exterior ya NO es costo ni obligación |
+| [[../../04-Parciales-Anteriores/Diciembre 2025/Resolucion\|Parcial Dic 2025]] | A3: proveedor brasilero, 25% uso en AR | Sustituto proporcional: 42.000 × 25% × 21% = 2.205 |
+| [[../../04-Parciales-Anteriores/Recuperatorio 2do Cuatrim 2025/Resolucion\|Recuperatorio 2025]] | A1: Gordon graba en AR → sustituto 42.531,65 | CF recuperable → no costo P&L, pero sí necesidad financiera |

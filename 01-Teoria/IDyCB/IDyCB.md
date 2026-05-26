@@ -235,3 +235,14 @@ Se paga sobre movimientos, no sobre ganancia. Una empresa con pérdida igual pag
 
 - [[Sistema Tributario Argentino]] — IDyCB en contexto general
 - [[Ganancias - Concepto y Optimizacion]] — cómo afecta el crédito vs costo
+---
+
+## Casos en el vault donde aparece este concepto
+
+| Caso | Tratamiento | Clave |
+|---|---|---|
+| [[../../03-Ejercicios/Resueltos-Catedra/Material 10/Caso I - Software Cadbury UK Argentina Uruguay\|Mat 10 · Caso I]] | Débitos (sueldos) + créditos (cobro) | Régimen Resto: 2/3 pérdida + 1/3 crédito |
+| [[../../03-Ejercicios/Resueltos-Catedra/Material 10/Caso II - ARGSecurity Consultoria BMV Argentina\|Mat 10 · Caso II]] | Por opción varía (sueldos vs proveedor exterior) | Incluir todos los movimientos bancarios reales |
+| [[../../03-Ejercicios/Resueltos-Catedra/Material 11/Caso I - Franquicia Detroit Brasil\|Mat 11 · Caso I]] | Crédito sobre cobro; 2/3 pérdida + 1/3 crédito | Régimen Resto confirmado |
+| [[../../04-Parciales-Anteriores/Diciembre 2025/Resolucion\|Parcial Dic 2025]] | Ingresos + egresos (incl. IVA a ingresar + IVA sustituto) | Los pagos de IVA a AFIP son egresos bancarios reales → generan IDyCB |
+| [[../../04-Parciales-Anteriores/Recuperatorio 2do Cuatrim 2025/Resolucion\|Recuperatorio 2025]] | Ingresos (cobro neto 378k); egresos incluyen IVA Gordon recuperable | IVA recuperable = egreso real = base IDyCB aunque no sea costo P&L |

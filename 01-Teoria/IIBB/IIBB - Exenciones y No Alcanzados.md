@@ -223,3 +223,16 @@ Solo aplica con países que tengan convenio. Sin convenio, paga IIBB.
 - [[IIBB - Convenio Multilateral]] — distribución entre provincias
 - [[IVA - Exportaciones]] — tratamiento similar en IVA
 - [[IVA - Exenciones]] — paralelo en IVA
+---
+
+## Casos en el vault donde aparece este concepto
+
+| Caso | ¿Exento? | Fundamento |
+|---|---|---|
+| [[../../03-Ejercicios/Resueltos-Catedra/Material 09/Caso I - IIBB Consultora Sistemas\|Mat 09 · Caso I]] | ❌ NO (sociedad) | Exención de profesiones liberales solo para individuo no organizado en empresa |
+| [[../../03-Ejercicios/Resueltos-Catedra/Material 09/Caso IV - IVA IIBB Venta Marca Plataforma Digital\|Mat 09 · Caso IV]] | Parcial (40% exento) | Solo la porción efectivizada en el exterior |
+| [[../../03-Ejercicios/Resueltos-Catedra/Material 10/Caso I - Software Cadbury UK Argentina Uruguay\|Mat 10 · Caso I]] | Parcial (20% exento) | Porción UY exenta; porción AR gravada al 5% |
+| [[../../03-Ejercicios/Resueltos-Catedra/Material 10/Caso III - DevArg CRM Empresa Peruana\|Mat 10 · Caso III]] | ✅ SÍ (100%) | Servicio efectivizado íntegramente en Perú |
+| [[../../03-Ejercicios/Resueltos-Catedra/Material 11/Caso I - Franquicia Detroit Brasil\|Mat 11 · Caso I]] | ✅ SÍ (100%) | Servicio efectivizado íntegramente en Brasil |
+| [[../../04-Parciales-Anteriores/Diciembre 2025/Resolucion\|Parcial Dic 2025]] | A1: parcial / A2-A3: total | A1: porción AR gravada. A2/A3: efectivizado en BR |
+| [[../../04-Parciales-Anteriores/Recuperatorio 2do Cuatrim 2025/Resolucion\|Recuperatorio 2025]] | ✅ SÍ en ambas opciones | Derechos de exhibición 100% en exterior (Chile, Brasil, México) |

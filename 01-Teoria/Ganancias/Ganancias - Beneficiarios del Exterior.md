@@ -186,3 +186,14 @@ Cuando hay pago a no residente con servicio en AR (o importación de servicios),
 - [[Renta Mundial vs Territorialidad]] — por qué no residente tributa fuente argentina
 - [[IVA - Importacion de Servicios]] — IVA paralelo a Ganancias
 - [[Tax Credit]] — el otro lado de la moneda
+---
+
+## Casos en el vault donde aparece este concepto
+
+| Caso | Beneficiario | Inciso / Tasa | Clave |
+|---|---|---|---|
+| [[../../03-Ejercicios/Resueltos-Catedra/Material 06/Caso 3 - CEO Discografica Argentina\|Mat 06 · Caso 3]] | Múltiples beneficiarios del exterior | Varios incisos analizados por pago | Cada concepto (regalías, sueldos, viáticos) tiene su inciso |
+| [[../../03-Ejercicios/Resueltos-Catedra/Material 07/Caso 1 - Empresa UK Presta en Argentina\|Mat 07 · Caso 1]] | Empresa UK, servicios técnicos en AR | Inc. h → 31,5% | Gross-up: empresa AR asume retención |
+| [[../../03-Ejercicios/Resueltos-Catedra/Material 10/Caso II - ARGSecurity Consultoria BMV Argentina\|Mat 10 · Caso II]] | Empresa uruguaya, servicio en AR | Inc. h → 31,5% | ARGSecurity actúa como agente de retención |
+| [[../../04-Parciales-Anteriores/Diciembre 2025/Resolucion\|Parcial Dic 2025]] | Proveedor brasilero (A3) | 31,5% sobre porción fuente AR | Retención proporcional al uso en AR (25%) |
+| [[../../04-Parciales-Anteriores/Recuperatorio 2do Cuatrim 2025/Resolucion\|Recuperatorio 2025]] | Gordon Ramsay (UK) | CDI Argentina-UK → 10% | CDI override al Art. 93; gross-up: 160k/0,90 = 177.777,78 |

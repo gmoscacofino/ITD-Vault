@@ -1,6 +1,6 @@
 # INDEX — Vault ITD (81.47 Impuestos para la Toma de Decisiones I)
 
-> Mapa completo del vault. Punto de entrada para navegar las notas. Última actualización al cerrar teoría completa.
+> Mapa completo del vault. Punto de entrada para navegar las notas. Actualizado: mayo 2026.
 
 ---
 
@@ -220,51 +220,52 @@
 
 ---
 
-## Material original
-
-- **Materiales 1-4**: ITD_-_Resumen_Materiales.md
-- **Material 7**: ITD_-_Skill_Parcial.md (casos prácticos)
-- **Notas de Lauti (txt)**: Impuestos_para_la_toma_de_decisiones_I.txt (transcripción completa)
-- **Notas de Berni**: 2026-XX-XX_ITD.md por fecha
-- **Audio**: VTT de la clase de IVA
-
----
-
 ## 03 - Ejercicios
 
 ```
 03-Ejercicios/
-├── Consignas/              ← Enunciados (6 materiales)
-├── Resueltos-Catedra/      ← Validados en clase
-└── Resueltos-Claude/       ← Generados por Claude (a chequear)
+├── Consignas/              ← Enunciados (por material)
+├── Resueltos-Catedra/      ← Validados por la cátedra (uno por caso, carpeta por material)
+│     └── _Indice-Por-Concepto.md  ← MAPA: concepto → casos donde aparece
+└── Resueltos-Claude/       ← Generados por Claude (a chequear con el profe)
 ```
 
-### Consignas disponibles
+> **Nota:** Material 08 no existe en el campus. Se salta del 07 al 09.
 
-| Material | Casos | Resuelto Cátedra |
-|---|---|---|
-| [[Material 06 - Consignas]] | 5 | ✅ [[Material 06 - Resuelto]] |
-| [[Material 07 - Consignas]] | 4 | ✅ [[Material 07 - Resuelto]] |
-| [[Material 09 - Consignas]] | 5 | — |
-| [[Material 10 - Consignas]] | 3 | — |
-| [[Material 11 - Consignas]] | 2 | ⚠️ [[Material 11 - Resuelto]] (solo Caso I) |
-| [[Material 12 - Consignas]] | 3 | — |
+### Estado de cobertura
+
+| Material | Casos | Resuelto Cátedra | Conceptos clave |
+|---|---|---|---|
+| [[Material 06 - Consignas\|Mat 06]] | 5 | ✅ completo | Tax credit, Art. 93, Art. 24, Fideicomiso, Condonación |
+| [[Material 07 - Consignas\|Mat 07]] | 4 | ✅ completo | Gross-up, Reorganización, Fuente extranjera, IVA nacimiento HI |
+| Mat 08 | — | N/A (no existe en el campus) | — |
+| [[Material 09 - Consignas\|Mat 09]] | 5 | ✅ completo | IIBB CM, Empresa constructora, Ajuste CF, Bien de uso, Cuotas USD |
+| [[Material 10 - Consignas\|Mat 10]] | 3 | ✅ completo | Exportación parcial, Utilización económica, CF exportaciones |
+| [[Material 11 - Consignas\|Mat 11]] | 2 | ✅ completo | IVA exención (sustituto desaparece), Gross-up + tax credit integrado |
+| [[Material 12 - Consignas\|Mat 12]] | 3 | ⏳ pendiente | Representante comercial, Quebrantos, Venta y reemplazo |
+
+### Índice de conceptos
+
+Para buscar qué casos ilustran un concepto específico → [[_Indice-Por-Concepto]]
 
 ### Cómo pedir resoluciones a Claude
 
-> Resolvé el Caso 1 del Material 9. Guardalo en `Resueltos-Claude/`.
-
-Una vez validado por el profe, el archivo se mueve a `Resueltos-Catedra/`.
+Usar el comando `/resolver Material X Caso N`. Claude verifica si ya existe una resolución validada, consulta el índice de conceptos para identificar patrones, y guarda en `Resueltos-Claude/` con advertencia de que no está validado.
 
 ---
 
-## Pendientes / Próximos pasos
+## 04 - Parciales Anteriores
 
-### Tema parciales (futuro)
-- **04-Parciales-Anteriores/**: incorporar parciales viejos si los conseguimos.
+| Parcial | Status | Conceptos evaluados |
+|---|---|---|
+| [[../../04-Parciales-Anteriores/Diciembre 2025/Resolucion\|Parcial Diciembre 2025]] | ✅ chequeado | Precio todo incluido (gross-down), exportación parcial, tax credit vs costo, IDyCB sobre egresos AFIP |
+| [[../../04-Parciales-Anteriores/Recuperatorio 2do Cuatrim 2025/Resolucion\|Recuperatorio 2do Cuatrim 2025]] | ✅ chequeado | Distribución de uso, gross-up Gordon, IVA sustituto ≠ costo, rentabilidad mínima sobre costos |
 
-### Notas crudas
-- **05-Apuntes-Crudos/**: notas de clase originales sin procesar (referencia rápida cuando hace falta).
+---
+
+## Pendientes
+
+- **Material 12**: 3 casos sin resolución validada. Subir al vault cuando esté disponible.
 
 ---
 

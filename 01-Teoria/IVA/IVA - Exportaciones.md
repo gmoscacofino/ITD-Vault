@@ -202,3 +202,16 @@ La exención de IIBB en exportaciones NO incluye actividades conexas (transporte
 - [[IVA - Concepto y Logica]] — mecánica general
 - [[IVA - Importacion de Servicios]] — el otro lado de la moneda
 - [[IIBB - Exenciones y No Alcanzados]] — exportación en IIBB
+---
+
+## Casos en el vault donde aparece este concepto
+
+| Caso | Situación | Clave |
+|---|---|---|
+| [[../../03-Ejercicios/Resueltos-Catedra/Material 07/Caso 3 - Big Data Argentina Gobierno Frances\|Mat 07 · Caso 3]] | Prestación en AR, uso en Francia → tasa 0% | CF del proveedor AR recuperable como saldo a favor |
+| [[../../03-Ejercicios/Resueltos-Catedra/Material 09/Caso IV - IVA IIBB Venta Marca Plataforma Digital\|Mat 09 · Caso IV]] | Exportación parcial: 40% exterior, 60% AR | Solo la porción exterior es tasa 0% |
+| [[../../03-Ejercicios/Resueltos-Catedra/Material 10/Caso I - Software Cadbury UK Argentina Uruguay\|Mat 10 · Caso I]] | 80% uso AR / 20% UY → exportación parcial | Porción AR al 21%; porción UY a tasa 0% |
+| [[../../03-Ejercicios/Resueltos-Catedra/Material 10/Caso III - DevArg CRM Empresa Peruana\|Mat 10 · Caso III]] | Servicio usado 100% en Perú → tasa 0% | CF del proveedor local = activo recuperable, NO costo |
+| [[../../03-Ejercicios/Resueltos-Catedra/Material 11/Caso I - Franquicia Detroit Brasil\|Mat 11 · Caso I]] | Servicio + marca en Brasil → tasa 0% | IVA 0% sobre todo el ingreso |
+| [[../../04-Parciales-Anteriores/Diciembre 2025/Resolucion\|Parcial Dic 2025]] | Exportación parcial AR/BR según uso | A1: IVA 21% con gross-down; A2/A3: fuera del objeto |
+| [[../../04-Parciales-Anteriores/Recuperatorio 2do Cuatrim 2025/Resolucion\|Recuperatorio 2025]] | Derechos de exhibición 100% en exterior | Tasa 0% en ambas opciones; distribución por ventas Chile/BR/MX |

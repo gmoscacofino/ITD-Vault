@@ -214,3 +214,15 @@ Solo se puede computar lo **efectivamente pagado**. Hasta que no haya ingreso al
 - [[Ganancias - Fuente]] — definir fuente AR vs extranjera
 - [[Ganancias - Beneficiarios del Exterior]] — la otra cara (cuando AR retiene)
 - [[Ganancias - Fuentes Especificas]] — Art. 5 y siguientes
+---
+
+## Casos en el vault donde aparece este concepto
+
+| Caso | ¿Tax credit? | Clave |
+|---|---|---|
+| [[../03-Ejercicios/Resueltos-Catedra/Material 06/Caso 1 - Software Factory AR Paraguay\|Mat 06 · Caso 1]] | ❌ NO | Home office en AR → fuente argentina → retención es COSTO |
+| [[../03-Ejercicios/Resueltos-Catedra/Material 07/Caso 3 - Big Data Argentina Gobierno Frances\|Mat 07 · Caso 3]] | ✅ SÍ | Equipo en Francia → fuente extranjera → retención francesa es crédito |
+| [[../03-Ejercicios/Resueltos-Catedra/Material 10/Caso III - DevArg CRM Empresa Peruana\|Mat 10 · Caso III]] | ✅ SÍ (parcial) | Solo sirve si hay Ganancias a pagar; opción con pérdida pierde el crédito |
+| [[../03-Ejercicios/Resueltos-Catedra/Material 11/Caso I - Franquicia Detroit Brasil\|Mat 11 · Caso I]] | ✅ SÍ | Fuente extranjera; límite = alícuota AR × renta extranjera |
+| [[../04-Parciales-Anteriores/Diciembre 2025/Resolucion\|Parcial Dic 2025]] | A1 ❌ / A2-A3 ✅ | A1 prestado en AR = fuente AR = costo. A2/A3 en BR = fuente extranjera |
+| [[../04-Parciales-Anteriores/Recuperatorio 2do Cuatrim 2025/Resolucion\|Recuperatorio 2025]] | A1 ❌ / A2 ✅ | A1 filmado en AR = fuente AR. A2 filmado en Chile = fuente extranjera |

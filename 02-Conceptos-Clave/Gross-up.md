@@ -199,3 +199,13 @@ Si tenés poder de negociación, conviene pactar **brutos** (no netos) para evit
 - [[Ganancias - Fuentes Especificas]] — Art. 13 (asesoramiento)
 - [[IVA - Importacion de Servicios]] — el IVA paralelo
 - [[Tax Credit]] — la otra cara cuando AR es el que cobra
+---
+
+## Casos en el vault donde aparece este concepto
+
+| Caso | Dirección | Fórmula usada |
+|---|---|---|
+| [[../03-Ejercicios/Resueltos-Catedra/Material 07/Caso 1 - Empresa UK Presta en Argentina\|Mat 07 · Caso 1]] | Neto → Bruto (empresa AR asume retención 31,5%) | `Bruto = Neto / (1 − 0,315)` |
+| [[../03-Ejercicios/Resueltos-Catedra/Material 11/Caso I - Franquicia Detroit Brasil\|Mat 11 · Caso I]] | Neto cobrado → Bruto declarable | `Bruto = Neto / (1 − tasa retención)` |
+| [[../04-Parciales-Anteriores/Diciembre 2025/Resolucion\|Parcial Dic 2025]] | Precio "todo incluido" → gross-down (inverso) | `Neto = Precio / 1,21` cuando IVA está incluido |
+| [[../04-Parciales-Anteriores/Recuperatorio 2do Cuatrim 2025/Resolucion\|Recuperatorio 2025]] | Neto en mano Gordon → Bruto base CDI | `160k / 0,90 = 177.777,78`; IVA sustituto: `160k × 21/79` |
