@@ -10,9 +10,10 @@
 |---|---|---|
 | [[Material 06/Caso 1 - Software Factory AR Paraguay\|Mat 06 · Caso 1]] | ❌ NO | Home office en AR → fuente argentina → retención del exterior es COSTO |
 | [[Material 07/Caso 3 - Big Data Argentina Gobierno Frances\|Mat 07 · Caso 3]] | ✅ SÍ | Personal en Francia → fuente extranjera → retención es tax credit |
+| [[Material 10/Caso III - DevArg CRM Empresa Peruana\|Mat 10 · Caso III]] | ✅ SÍ (parcial) | Solo se puede usar si hay Ganancias a pagar; con pérdida se pierde |
 | [[Material 11/Caso I - Franquicia Detroit Brasil\|Mat 11 · Caso I]] | ✅ SÍ | Fuente extranjera + gross-up previo + límite alícuota AR (30%) |
 
-**Patrón:** el tax credit depende exclusivamente de la **fuente** del ingreso, no de quién paga la retención.
+**Patrón:** el tax credit depende de la **fuente** del ingreso. Y solo sirve si hay impuesto argentino contra el cual imputarlo.
 
 ---
 
@@ -33,7 +34,8 @@
 |---|---|---|
 | [[Material 06/Caso 1 - Software Factory AR Paraguay\|Mat 06 · Caso 1]] | Argentina | Desarrollador trabaja desde AR (home office) |
 | [[Material 07/Caso 3 - Big Data Argentina Gobierno Frances\|Mat 07 · Caso 3]] | Extranjera | Personal viaja y trabaja físicamente en Francia |
-| [[Material 11/Caso I - Franquicia Detroit Brasil\|Mat 11 · Caso I]] | Extranjera | American Food opera desde AR pero la utilización es en Brasil |
+| [[Material 10/Caso I - Software Cadbury UK Argentina Uruguay\|Mat 10 · Caso I]] | Extranjera (desde UK) | Equipo trabaja físicamente en UK |
+| [[Material 11/Caso I - Franquicia Detroit Brasil\|Mat 11 · Caso I]] | Extranjera | Utilización económica en Brasil |
 
 **Patrón:** la fuente la define **dónde se ejecuta la actividad**, no dónde está el cliente ni dónde se cobra.
 
@@ -45,8 +47,9 @@
 |---|---|---|---|
 | [[Material 06/Caso 3 - CEO Discografica Argentina\|Mat 06 · Caso 3]] | b) derechos de autor | 12,25% | Obra inscripta: 35% × 35% |
 | [[Material 07/Caso 1 - Empresa UK Presta en Argentina\|Mat 07 · Caso 1]] | h) servicios técnicos sin asesoramiento | 31,5% | Presunción 90% × 35% |
+| [[Material 10/Caso II - ARGSecurity Consultoria BMV Argentina\|Mat 10 · Caso II]] | h) empresa uruguaya | 31,5% | Renta de fuente AR → retención como agente |
 
-**Patrón:** identificar primero el inciso correcto del Art. 93 antes de calcular. El 35% pleno casi nunca aplica directamente.
+**Patrón:** identificar el inciso correcto del Art. 93 antes de calcular. El 35% pleno casi nunca aplica directamente.
 
 ---
 
@@ -54,11 +57,11 @@
 
 | Caso | Tipo de gasto | Regla |
 |---|---|---|
-| [[Material 06/Caso 4 - Filial Multinacional Electrodomesticos\|Mat 06 · Caso 4]] | Inventario comprado a vinculada | Se deduce cuando se vende Y si el pago fue antes del vto de DDJJ |
-| [[Material 06/Caso 5 - Capital vs Prestamo Multinacional Austriaca\|Mat 06 · Caso 5]] | Intereses a vinculada | Art. 24 aplica → deducción al pago (no al devengo) |
+| [[Material 06/Caso 4 - Filial Multinacional Electrodomesticos\|Mat 06 · Caso 4]] | Inventario comprado a vinculada | Deduce cuando se vende Y si el pago fue antes del vto de DDJJ |
+| [[Material 06/Caso 5 - Capital vs Prestamo Multinacional Austriaca\|Mat 06 · Caso 5]] | Intereses a vinculada | Art. 24 aplica → deducción al pago |
 | [[Material 06/Caso 5 - Capital vs Prestamo Multinacional Austriaca\|Mat 06 · Caso 5]] | Diferencia de cambio sobre capital | Art. 24 NO aplica → deducción al devengo |
 
-**Patrón:** Art. 24 solo activa cuando la renta **es fuente AR para el acreedor** (intereses sí; devolución de capital no).
+**Patrón:** Art. 24 solo activa cuando la renta **es fuente AR para el acreedor** (intereses sí; capital no).
 
 ---
 
@@ -76,7 +79,7 @@
 
 | Caso | Situación | Regla |
 |---|---|---|
-| [[Material 06/Caso 2 - Fideicomiso Construccion al Costo\|Mat 06 · Caso 2]] | Mezcla residentes + no residentes | Residentes: tributan como fiduciantes. No residentes: tributa el fideicomiso. Opción unificada: 5 años mínimo |
+| [[Material 06/Caso 2 - Fideicomiso Construccion al Costo\|Mat 06 · Caso 2]] | Mezcla residentes + no residentes | Residentes: como fiduciantes. No residentes: el fideicomiso. Opción unificada: 5 años mínimo |
 
 ---
 
@@ -94,9 +97,22 @@
 | Caso | Requisitos verificados | Consecuencia |
 |---|---|---|
 | [[Material 07/Caso 3 - Big Data Argentina Gobierno Frances\|Mat 07 · Caso 3]] | Prestación en AR, cliente no residente, uso en el exterior | Tasa 0%, CF vinculado recuperable |
+| [[Material 09/Caso IV - IVA IIBB Venta Marca Plataforma Digital\|Mat 09 · Caso IV (b)]] | Prestado en exterior, uso parcial en AR (60%) | Solo el 40% es exportación; 60% gravado al 21% |
+| [[Material 10/Caso I - Software Cadbury UK Argentina Uruguay\|Mat 10 · Caso I]] | Prestación en AR, uso 80% AR / 20% UY | Porción AR: 21%; porción UY: tasa 0% |
+| [[Material 10/Caso III - DevArg CRM Empresa Peruana\|Mat 10 · Caso III]] | Cliente no residente, uso en Perú | Tasa 0%, CF del proveedor recuperable |
 | [[Material 11/Caso I - Franquicia Detroit Brasil\|Mat 11 · Caso I]] | Ídem + cesión temporal de marca | Tasa 0%, no cobra IVA al cliente brasilero |
 
-**Patrón:** tasa 0% ≠ exento. La diferencia: tasa 0% permite recuperar CF; exento no.
+**Patrón:** tasa 0% ≠ exento. Permite recuperar CF. Y puede aplicarse parcialmente según % de uso en el exterior.
+
+---
+
+## IVA — CF de exportaciones (saldo a favor recuperable)
+
+| Caso | Situación | Clave |
+|---|---|---|
+| [[Material 10/Caso III - DevArg CRM Empresa Peruana\|Mat 10 · Caso III]] | Proveedor AR factura con IVA, DevArg exporta | CF es activo recuperable (devolución/compensación AFIP), NO costo |
+
+**Patrón:** en exportaciones a tasa 0%, el IVA que te cobra el proveedor local es **recuperable**. No tratarlo como costo es la clave de la opción a.1.
 
 ---
 
@@ -105,9 +121,11 @@
 | Caso | Condición de la empresa AR | Consecuencia del IVA |
 |---|---|---|
 | [[Material 07/Caso 1 - Empresa UK Presta en Argentina\|Mat 07 · Caso 1]] | RI en IVA | Ingresa IVA como sustituto → CF al mes siguiente → **NEUTRO** |
+| [[Material 10/Caso II - ARGSecurity Consultoria BMV Argentina\|Mat 10 · Caso II]] | RI en IVA, contrata empresa UY | Sustituto → CF 17.850 > DF 17.355 → saldo a favor |
+| [[Material 10/Caso III - DevArg CRM Empresa Peruana\|Mat 10 · Caso III]] | RI, contrata empresa peruana | Sustituto por IVA AR (neutro) + IVA peruano irrecuperable (costo) |
 | [[Material 11/Caso II - Telefonia IP Exencion IVA\|Mat 11 · Caso II]] | Deja de ser RI (exención) | Obligación de sustituto desaparece → IVA del exterior **no es costo** |
 
-**Patrón clave:** el IVA del exterior (responsable sustituto) es una obligación propia del RI. Si dejás de ser RI, esa obligación desaparece. El IVA de proveedores locales, en cambio, está dentro del precio del proveedor → sí se vuelve costo al perder la condición de RI.
+**Patrón clave:** el IVA del exterior (responsable sustituto) es una obligación propia del RI. Si dejás de ser RI, esa obligación desaparece. El IVA de proveedores locales está dentro del precio del proveedor → sí se vuelve costo al perder la condición de RI.
 
 ---
 
@@ -119,11 +137,81 @@
 
 ---
 
-## IVA — Nacimiento del HI y efecto inflacionario
+## IVA — Nacimiento del HI y diferencias de cambio
 
-| Caso | Problema | Solución |
+| Caso | Problema | Consecuencia |
 |---|---|---|
-| [[Material 07/Caso 4 - Shopping Center Empresa Francesa IVA\|Mat 07 · Caso 4]] | CF en pesos se devalúa si hay descalce temporal con el DF | Estructurar para que CF y DF nazcan al mismo tiempo (Alt. 2) |
+| [[Material 07/Caso 4 - Shopping Center Empresa Francesa IVA\|Mat 07 · Caso 4]] | Descalce temporal CF/DF en inflación | CF en pesos se devalúa; estructurar para que nazcan al mismo tiempo |
+| [[Material 09/Caso V - IVA IIBB Automotriz Cuotas USD\|Mat 09 · Caso V]] | HI nace al entregar el bien; cuotas se cobran después | Pago inicial mínimo = IVA neto + IIBB al momento de la venta |
+| [[Material 09/Caso V - IVA IIBB Automotriz Cuotas USD\|Mat 09 · Caso V]] | Diferencias de cambio al cobrar cuotas en pesos a TC mayor | Gravadas con IVA (teoría unicidad) → comprobante adicional por cada cuota |
+
+---
+
+## IVA — Empresa constructora
+
+| Caso | ¿Es empresa constructora? | Clave |
+|---|---|---|
+| [[Material 09/Caso III - IVA IIBB Planta Industrial Barracas\|Mat 09 · Caso III]] | ❌ NO | Construyó para uso propio, no con propósito de lucro por venta |
+
+**Patrón:** el propósito al momento de construir define si hay HI. Construir para uso propio ≠ empresa constructora.
+
+---
+
+## IVA — Ajuste CF inmueble (Art. 11 DR, período 10 años)
+
+| Caso | ¿Hay reintegro? | Clave |
+|---|---|---|
+| [[Material 09/Caso III - IVA IIBB Planta Industrial Barracas\|Mat 09 · Caso III]] | ❌ NO | CF computado en 1998; período de 10 años venció en 2008; venta en 2022 |
+
+**Patrón:** verificar si los 10 años desde la finalización de la obra ya pasaron. Si sí → no hay reintegro.
+
+---
+
+## IVA — Cesión definitiva de marca
+
+| Caso | Tratamiento | Certeza |
+|---|---|---|
+| [[Material 09/Caso IV - IVA IIBB Venta Marca Plataforma Digital\|Mat 09 · Caso IV (a)]] | NO gravada | Sin ambigüedad — ni Ley ni DR incluyen la transferencia definitiva de derechos |
+
+---
+
+## IIBB — Alcance, exención y habitualidad
+
+| Caso | Alcanzada | Clave |
+|---|---|---|
+| [[Material 09/Caso I - IIBB Consultora Sistemas\|Mat 09 · Caso I]] | ✅ SÍ (sociedad) | Exención de profesiones liberales solo aplica a profesional individual, no a empresa |
+| [[Material 09/Caso IV - IVA IIBB Venta Marca Plataforma Digital\|Mat 09 · Caso IV (a)]] | ❌ NO (venta de marca) | Hecho aislado, no corresponde al objeto habitual; marca nunca afectada al ciclo comercial |
+
+**Patrón:** sociedad → siempre alcanzada. La exención de profesiones liberales requiere ejercicio individual y sin estructura empresarial.
+
+---
+
+## IIBB — Convenio Multilateral (CM)
+
+| Caso | Régimen | Clave |
+|---|---|---|
+| [[Material 09/Caso I - IIBB Consultora Sistemas\|Mat 09 · Caso I]] | CM — Régimen General (50/50) | Gastos E ingresos en más de una jurisdicción → CM. Sociedad → no aplica régimen especial |
+
+**Patrón:** el CM requiere gastos **Y** ingresos en más de una jurisdicción. No alcanza con tener clientes en otras provincias. Las sociedades van siempre al Régimen General (50% gastos / 50% ingresos).
+
+---
+
+## IIBB — Bien de uso: categoría al momento de la venta
+
+| Caso | Categoría al vender | IIBB |
+|---|---|---|
+| [[Material 09/Caso III - IVA IIBB Planta Industrial Barracas\|Mat 09 · Caso III]] | "Otros Bienes" (desafectada en 2020) | ✅ SÍ gravada |
+| [[Material 09/Caso II - IIBB Grupo Economico Recupero Gastos\|Mat 09 · Caso II]] | Bien de cambio (para el vendedor) | ✅ SÍ gravada |
+
+**Patrón:** si el bien se desafecta de "Bienes de Uso" antes de la venta → paga IIBB. Recomendación: no cambiar la categoría aunque el bien no se use.
+
+---
+
+## IIBB — Recupero de gastos / intermediarios
+
+| Caso | Tratamiento | Clave |
+|---|---|---|
+| [[Material 09/Caso II - IIBB Grupo Economico Recupero Gastos\|Mat 09 · Caso II]] | NO gravado | Pago por cuenta y orden de tercero → no es ingreso propio |
 
 ---
 
@@ -131,9 +219,12 @@
 
 | Caso | Aplica exención | Requisito |
 |---|---|---|
-| [[Material 11/Caso I - Franquicia Detroit Brasil\|Mat 11 · Caso I]] | ✅ SÍ | Servicio que **se efectiviza en el exterior** (restaurants en Brasil) |
+| [[Material 09/Caso IV - IVA IIBB Venta Marca Plataforma Digital\|Mat 09 · Caso IV (b)]] | Parcial (40% exportación) | Solo la porción efectivizada en el exterior está exenta |
+| [[Material 10/Caso I - Software Cadbury UK Argentina Uruguay\|Mat 10 · Caso I]] | Parcial (20% UY exento, 80% AR gravado) | La porción utilizada en AR no es exportación |
+| [[Material 10/Caso III - DevArg CRM Empresa Peruana\|Mat 10 · Caso III]] | ✅ SÍ (100%) | Servicio que se efectiviza íntegramente en el exterior |
+| [[Material 11/Caso I - Franquicia Detroit Brasil\|Mat 11 · Caso I]] | ✅ SÍ (100%) | Servicio que se efectiviza íntegramente en el exterior |
 
-**Patrón:** no alcanza con que el cliente sea del exterior. El servicio debe efectivizarse afuera.
+**Patrón:** no alcanza con que el cliente sea del exterior. El servicio debe efectivizarse afuera. Si hay uso parcial en AR, la exención aplica solo a la porción exterior.
 
 ---
 
@@ -141,9 +232,11 @@
 
 | Caso | Momento | Monto |
 |---|---|---|
-| [[Material 11/Caso I - Franquicia Detroit Brasil\|Mat 11 · Caso I]] | Al acreditar cobro en cuenta bancaria | 0,6% sobre el crédito bancario |
+| [[Material 10/Caso I - Software Cadbury UK Argentina Uruguay\|Mat 10 · Caso I]] | Débitos (sueldos) + créditos (cobro) | (500K + 350K) × 0,6% = USD 5.100 |
+| [[Material 10/Caso II - ARGSecurity Consultoria BMV Argentina\|Mat 10 · Caso II]] | Débitos + créditos por opción | Varía según si el costo genera débito bancario |
+| [[Material 11/Caso I - Franquicia Detroit Brasil\|Mat 11 · Caso I]] | Al acreditar cobro en cuenta bancaria | 600K × 0,6% = USD 3.600 |
 
-**Patrón:** presente en toda operación que cobra por cuenta bancaria. Chico pero siempre aparece.
+**Patrón:** presente en toda operación que cobra/paga por cuenta bancaria. Siempre incluirlo.
 
 ---
 
@@ -160,5 +253,13 @@
 | Mat 07 · Caso 2 | Reorganización Art. 77, 80% / 2 años |
 | Mat 07 · Caso 3 | Tax credit ✅, Fuente extranjera, IVA tasa 0% |
 | Mat 07 · Caso 4 | IVA nacimiento HI, Inflación + CF |
+| Mat 09 · Caso I | IIBB sociedad alcanzada, CM Régimen General |
+| Mat 09 · Caso II | IIBB recupero gastos, bienes de cambio vs uso |
+| Mat 09 · Caso III | IVA empresa constructora ❌, Ajuste CF 10 años, IIBB bien de uso desafectado |
+| Mat 09 · Caso IV | IVA cesión definitiva marca ❌, IIBB habitualidad, Exportación parcial |
+| Mat 09 · Caso V | IVA nacimiento HI + cuotas, Diferencias de cambio, Pago inicial mínimo |
+| Mat 10 · Caso I | Exportación parcial (AR/UY), Desde AR vs UK, Porcentajes de uso |
+| Mat 10 · Caso II | IVA utilización económica en AR ≠ exportación, Sustituto, Retención 31,5% |
+| Mat 10 · Caso III | CF exportaciones recuperable, Tax credit parcial, IVA local vs exterior |
 | Mat 11 · Caso I | Gross-up, Tax credit ✅, IVA tasa 0%, IIBB exenta, IDyCB |
 | Mat 11 · Caso II | IVA exención, pérdida neutralidad, sustituto desaparece |
