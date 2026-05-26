@@ -130,7 +130,7 @@ Verificación:
 
 Más IVA por responsable sustituto (Art. 4.1 IVA), que es neutro económicamente.
 
-> Ver [[Material 07 - Ganancias e IVA#Caso 1 — Empresa UK presta en Argentina (gross-up + IVA)|Material 07 — Caso 1]] para la resolución completa.
+> Ver [[Material 07 - Resuelto#Caso 1 — Empresa UK presta en Argentina (gross-up + IVA)|Material 07 — Caso 1]] para la resolución completa.
 
 ---
 

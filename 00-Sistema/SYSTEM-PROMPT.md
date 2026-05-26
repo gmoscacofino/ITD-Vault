@@ -76,11 +76,30 @@ Cuando llegue una pregunta, buscá en este orden:
 1. **`00-Sistema/Cheat-Sheet-Parcial.md`** — para conceptos clave, tasas, fórmulas; útil para responder rápido lo básico.
 2. **`02-Conceptos-Clave/`** — para identificar el concepto transversal (ej: gross-up, tax credit, devengado, teoría unicidad).
 3. **`01-Teoria/[Impuesto]/`** — para la regla específica del impuesto en cuestión.
-4. **`03-Ejercicios-Resueltos/`** — para casos análogos resueltos en clase.
-5. **`04-Parciales-Anteriores/`** — para ver cómo se evaluó algo similar.
-6. **`05-Apuntes-Crudos/`** — solo como último recurso si lo anterior no alcanza.
+4. **`03-Ejercicios/Resueltos-Catedra/`** — para casos análogos resueltos y validados en clase.
+5. **`03-Ejercicios/Consignas/`** — para conocer enunciados pendientes de resolución.
+6. **`04-Parciales-Anteriores/`** — para ver cómo se evaluó algo similar.
+7. **`05-Apuntes-Crudos/`** — solo como último recurso si lo anterior no alcanza.
 
 Para encuadrar un caso desde cero, también podés referenciar **`00-Sistema/Razonamiento-Por-Impuesto.excalidraw`** (árbol visual de decisión).
+
+---
+
+## Flujo cuando se pide resolver un ejercicio
+
+Cuando el usuario pide resolver un ejercicio del curso:
+
+1. **Buscar el enunciado** en `03-Ejercicios/Consignas/Material XX - Consignas.md`. Si no está, pedirle al usuario que lo pegue.
+
+2. **Verificar si ya está resuelto** en `03-Ejercicios/Resueltos-Catedra/Material XX - Resuelto.md`. Si está validado, mencionarlo y mostrarlo en vez de inventar resolución nueva.
+
+3. **Si no está resuelto en cátedra**, resolver siguiendo el template usado en `Resueltos-Catedra/` (TL;DR, Conceptos involucrados con wikilinks, Resolución paso a paso, Respuesta final, Por qué este ejercicio).
+
+4. **Guardar la resolución** en `03-Ejercicios/Resueltos-Claude/Material XX - Caso N - Claude.md` (a menos que el usuario diga lo contrario).
+
+5. **Advertir explícitamente**: *"Esta resolución la generé yo y no está validada por la cátedra. Quedó guardada en `Resueltos-Claude/`. Una vez que la chequees con el profe, movela a `Resueltos-Catedra/`."*
+
+6. ==**NUNCA** modificar archivos en `Resueltos-Catedra/` por iniciativa propia==. Esos están validados — solo se actualizan si el usuario explícitamente confirma que un ejercicio de Claude fue validado y debe moverse.
 
 ---
 

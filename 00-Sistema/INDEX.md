@@ -230,19 +230,31 @@
 
 ---
 
-## 03 - Ejercicios Resueltos
+## 03 - Ejercicios
 
-| Material | Estado | Casos |
+```
+03-Ejercicios/
+├── Consignas/              ← Enunciados (6 materiales)
+├── Resueltos-Catedra/      ← Validados en clase
+└── Resueltos-Claude/       ← Generados por Claude (a chequear)
+```
+
+### Consignas disponibles
+
+| Material | Casos | Resuelto Cátedra |
 |---|---|---|
-| [[Material 06 - Repaso I Ganancias]] | ✅ Resuelto | 5 casos: tax credit, fideicomiso, beneficiarios del exterior, Art. 24, condonación |
-| [[Material 07 - Ganancias e IVA]] | ✅ Resuelto | 4 casos: gross-up UK, reorganización Art. 77, Big Data Francia, shopping center |
-| [[Material 11 - Ganancias IVA IIBB IDyCB]] | ⚠️ Parcial | Caso I (franquicia DETROIT) ✅, Caso II (telefonía IP) ⏳ |
+| [[Material 06 - Consignas]] | 5 | ✅ [[Material 06 - Resuelto]] |
+| [[Material 07 - Consignas]] | 4 | ✅ [[Material 07 - Resuelto]] |
+| [[Material 09 - Consignas]] | 5 | — |
+| [[Material 10 - Consignas]] | 3 | — |
+| [[Material 11 - Consignas]] | 2 | ⚠️ [[Material 11 - Resuelto]] (solo Caso I) |
+| [[Material 12 - Consignas]] | 3 | — |
 
-**Pendientes** (esperando resolución de la cátedra):
-- Material #9 — IIBB e IVA
-- Material #10 — Ganancias/IVA/IIBB/IDyCB
-- Material #11 Caso II — telefonía IP
-- Material #12 — Ejercitación integral
+### Cómo pedir resoluciones a Claude
+
+> Resolvé el Caso 1 del Material 9. Guardalo en `Resueltos-Claude/`.
+
+Una vez validado por el profe, el archivo se mueve a `Resueltos-Catedra/`.
 
 ---
 
