@@ -28,8 +28,7 @@ ITD-Vault/
 │                            Red Hotelera, Angulo), etc.
 ├── 03-Ejercicios-Resueltos/  → vacía por ahora, se llena al final con los 
 │                                ejercicios prácticos
-├── 04-Parciales-Anteriores/  → vacía, para parciales viejos si los conseguimos
-└── 05-Apuntes-Crudos/    → vacía, para apuntes sin procesar
+└── 04-Parciales-Anteriores/  → parciales con consignas y resoluciones
 ```
 
 ### Cómo está armada cada nota

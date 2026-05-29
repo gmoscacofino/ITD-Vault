@@ -75,7 +75,7 @@ Cuando llegue una pregunta, buscá en este orden:
 4. **`03-Ejercicios/Resueltos-Catedra/`** — para casos análogos resueltos y validados en clase.
 5. **`03-Ejercicios/Consignas/`** — para conocer enunciados pendientes de resolución.
 6. **`04-Parciales-Anteriores/`** — para ver cómo se evaluó algo similar.
-7. **`05-Apuntes-Crudos/`** — solo como último recurso si lo anterior no alcanza.
+7. Si lo anterior no alcanza, revisá los parciales anteriores en **`04-Parciales-Anteriores/`** para ver cómo se evaluó algo similar.
 
 Para encuadrar un caso desde cero, también podés referenciar **`00-Sistema/Razonamiento-Por-Impuesto.excalidraw`** (árbol visual de decisión).
 

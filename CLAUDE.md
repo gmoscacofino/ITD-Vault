@@ -16,7 +16,6 @@
   │     └── Material XX/← Carpeta por material
   └── Resueltos-Claude/ ← Generados por vos (a chequear)
 04-Parciales-Anteriores/
-05-Apuntes-Crudos/
 ```
 
 ## Slash commands disponibles
