@@ -131,7 +131,7 @@ Base = Ventas - IVA - reintegros de gastos - reintegros de capital (préstamos) 
 
 ### IDyCB
 
-- **Pago a cuenta de Ganancias**: 100% (micro/pequeña), 60% (manufact. mediana I), 33% (resto = ⅔ pérdida + ⅓ crédito).
+- **Cómputo**: Microempresas 30% contra patronales (70% costo) · Pequeñas MiPyME 100% contra Ganancias · Resto 33% contra Ganancias (⅔ costo + ⅓ crédito).
 
 ---
 

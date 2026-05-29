@@ -119,7 +119,10 @@ Cuando llegue una pregunta, buscá en este orden:
 ### IDyCB
 
 - Tasa: **0,6% débito + 0,6% crédito = 1,2% total**.
-- Pago a cuenta de Ganancias: microempresas 100%, manufacturera mediana tramo I 60%, resto 33% (⅔ pérdida + ⅓ crédito).
+- Cómputo según tipo de empresa:
+  - **Microempresas**: 30% como pago a cuenta de contribuciones patronales (70% es costo).
+  - **Pequeñas MiPyME**: 100% contra Ganancias (0% costo).
+  - **Resto (medianas/grandes)**: 33% contra Ganancias (⅔ costo + ⅓ crédito).
 
 ---
 
