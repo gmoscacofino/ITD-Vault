@@ -1,5 +1,5 @@
 ---
-description: Resolver un caso de ejercicio del vault siguiendo las reglas del SYSTEM-PROMPT
+description: Resolver un caso de ejercicio del vault siguiendo las reglas del CLAUDE.md
 allowed-tools: Read, Write, Edit, Glob, Grep
 ---
 

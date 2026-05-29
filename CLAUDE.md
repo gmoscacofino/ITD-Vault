@@ -76,86 +76,6 @@ Cuando llegue una pregunta, buscá en este orden:
 5. **`03-Ejercicios/Consignas/`** — para conocer enunciados pendientes de resolución.
 6. **`04-Parciales-Anteriores/`** — para ver cómo se evaluó algo similar.
 
-
----
-
-## Flujo cuando se pide resolver un ejercicio
-
-Cuando el usuario pide resolver un ejercicio del curso:
-
-1. **Buscar el enunciado** en `03-Ejercicios/Consignas/Material XX - Consignas.md`. Si no está, pedirle al usuario que lo pegue.
-
-2. **Verificar si ya está resuelto** en `03-Ejercicios/Resueltos-Catedra/Material XX/Caso N - Nombre.md`. Si está validado, mencionarlo y mostrarlo en vez de inventar resolución nueva.
-
-3. **Consultar el índice de casos anteriores** en `03-Ejercicios/Resueltos-Catedra/_Indice-Por-Concepto.md`:
-   - Identificar qué conceptos del nuevo caso ya aparecieron en ejercicios anteriores → son **patrones conocidos**, aplicar con confianza.
-   - Identificar qué es nuevo o tiene un giro distinto → advertirlo explícitamente al resolver.
-   - Mencionar brevemente los casos análogos: *"Este concepto ya apareció en Mat X Caso Y con resultado Z."*
-
-4. **Si no está resuelto en cátedra**, resolver siguiendo el template usado en `Resueltos-Catedra/` (Conceptos involucrados con wikilinks, Resolución paso a paso, Respuesta final, Por qué este ejercicio).
-
-5. **Guardar la resolución** en `03-Ejercicios/Resueltos-Claude/Material XX - Caso N.md` (a menos que el usuario diga lo contrario).
-
-6. **Advertir explícitamente**: *"Esta resolución la generé yo y no está validada por la cátedra. Quedó guardada en `Resueltos-Claude/`. Una vez que la chequees con el profe, movela a `Resueltos-Catedra/`."*
-
-7. ==**NUNCA** modificar archivos en `Resueltos-Catedra/` por iniciativa propia==. Esos están validados — solo se actualizan si el usuario explícitamente confirma que un ejercicio de Claude fue validado y debe moverse.
-
----
-
-## Reglas críticas de la materia — nunca olvidar
-
-Estas reglas son las más frecuentemente evaluadas. Si la pregunta toca alguna, asegurate de aplicarla correctamente.
-
-### Ganancias
-- **Tax credit solo aplica sobre ganancias de fuente extranjera.** Si el servicio se presta desde Argentina (home office), la retención del exterior es COSTO irrecuperable, no crédito.
-- **Art. 93 inc. h)** servicios técnicos sin asesoramiento (residual 90%): tasa efectiva 31,5%.
-- **Art. 104** establece presunciones de ganancia neta sin admitir prueba en contrario. Memorizar: vinculadas 100% (35% efectivo), asesoramiento 60% (21%), cesión derechos/marcas 80% (28%), residual 90% (31,5%).
-- **Gross-up**: `Bruto = Neto / (1 - tasa efectiva)`
-- **Art. 24 vinculadas del exterior**: si paga antes del vto de DDJJ → deduce devengado. Si paga después → deduce en año de pago. Solo aplica si la renta es fuente AR para el acreedor.
-- **Reorganización libre de impuestos (Art. 77/80)**:
-  - 80% del capital en los 2 años **previos** (solo para trasladar quebrantos)
-  - Mantenimiento del importe de participación 2 años después
-  - Actividad mantenida ≥ 2 años después
-  - Actividades iguales o vinculadas en 12 meses previos
-  - Cese ≤ 18 meses (excepto conjunto económico)
-- **Teoría de la fuente** (Persona Humana): periodicidad + permanencia + habilitación, las 3 a la vez.
-- **Teoría del balance** (Persona Jurídica): todo ingreso de negocio real está gravado. Incluye condonación de pasivos, diferencias de cambio, indemnizaciones.
-- **Diferencias de cambio (Art. 164 DR)**: NO se admite diferencia de cambio por transformar deuda a otra moneda, salvo al pago o novación.
-- **Endeudamiento con el exterior**: capitalizar pasivo = pago (puede activar retención 35% sobre intereses). Condonar = ganancia gravada SOLO si no hubo gasto previo deducido.
-- **Salidas no documentadas (Art. 40)**: 35% adicional sobre el gasto + gasto NO deducible. El IVA nunca es costo. Caso emblema: Red Hotelera.
-- **Dividendo ficto**: requiere ganancias en la sociedad. Uso/goce inmuebles 8% anual, otros bienes 20% anual sobre valor de plaza.
-- **Quebrantos específicos** (5 años, solo contra misma fuente): venta de acciones, fuente extranjera, operaciones derivados (no cobertura), inmuebles, recursos naturales no renovables.
-
-### IVA
-- **Empresa constructora**: el requisito es **propósito de lucro con la ejecución o venta**, no el objeto social.
-- **Ajuste CF inmueble (Art. 11 DR)**: reintegrar el CF computado solo si la desafectación o venta ocurre **dentro de 10 años** desde la finalización de la obra.
-- **Cesión definitiva de marca**: NO gravada. Cesión temporal: gravada (zona gris DR vs Ley).
-- **Diferencias de cambio**: gravadas por teoría de la unicidad (siguen lo accesorio a lo principal).
-- **Responsable sustituto (Art. 4 inc. h)**: el RI ingresa el IVA en nombre del proveedor del exterior. El IVA es **neutro económicamente** (CF en mes siguiente), solo hay costo financiero.
-- **Exportación de servicios**: gravada a tasa **0%** (no exenta), permite computar CF vinculado.
-- **Criterio de utilización económica**: solo aplica a servicios digitales B2C. Para otros servicios el criterio es lugar de prestación.
-- **Tasas**: general 21%, reducida 10,5% (alimentos, carne, computadoras, vivienda única, agro), incrementada 27% (servicios públicos a RI).
-- **Saldos a favor**: técnico (solo contra DF futuros del mismo IVA) vs libre disponibilidad (contra otros impuestos o devolución).
-- **Pirámide jurídica**: si DR contradice Ley → prevalece Ley. Si Resolución contradice DR → prevalece DR.
-
-### IIBB
-- **Sociedad → siempre alcanzada**, aunque sea de profesionales universitarios. La exención de profesiones liberales es solo para el profesional individual no organizado en empresa.
-- **Habitualidad**: se presume siempre para sociedades. **Onerosidad, no lucratividad**: paga aunque pierda.
-- **Bien de uso**: la categoría al momento de la venta es la que determina si aplica la exclusión de la base imponible. Si se desafectó antes, paga IIBB.
-- **Base imponible**: NO integran IVA (sobre 100, no 121), reintegros de capital, reintegros de gastos, subsidios, reintegros de exportación, venta de bienes de uso.
-- **Convenio Multilateral**: requiere gastos E ingresos en más de una jurisdicción. No alcanza con solo tener clientes en otras provincias.
-- **Régimen General**: 50% según ingresos donde provienen / 50% según gastos donde se soportan.
-- **Régimen Especial Profesiones Liberales (20/80)**: solo aplica a individuos, no a sociedades. 20% oficina, 80% donde se presta.
-- **Régimen Especial Construcción (10/90)**: 10% oficina, 90% obra.
-- **Exportación de servicios exenta**: el servicio debe efectivizarse en el exterior, no basta con que el cliente sea del exterior.
-
-### IDyCB
-- Tasa: **0,6% débito + 0,6% crédito = 1,2% total** sobre movimientos en cuenta bancaria.
-- Pago a cuenta de Ganancias:
-  - **Microempresas**: 100% (también pueden imputar hasta 30% contra cargas patronales).
-  - **Manufacturera mediana tramo I**: 60% (excedente 33%).
-  - **Resto**: 33% (⅔ pérdida + ⅓ crédito).
-
 ---
 
 ## Estilo de respuesta
@@ -185,9 +105,10 @@ Cuando un tema entre en una de estas zonas, advertí explícitamente que hay amb
 ## Estructura del vault
 
 ```
-00-Config/        ← CLAUDE.md, INDEX, Cheat-Sheet
-01-Teoria/         ← Ganancias, IVA, IIBB, IDyCB, Sistema Tributario
-02-Conceptos-Clave/← Hecho Imponible, Tax Credit, Gross-up, Fallos
+CLAUDE.md              ← este archivo (cargado automáticamente)
+00-Config/             ← INDEX, Cheat-Sheet
+01-Teoria/             ← Ganancias, IVA, IIBB, IDyCB, Sistema Tributario
+02-Conceptos-Clave/    ← Hecho Imponible, Tax Credit, Gross-up, Fallos
 03-Ejercicios/
   ├── Consignas/        ← Enunciados (lectura)
   ├── Resueltos-Catedra/← Validados, uno por caso (referencia confiable)
