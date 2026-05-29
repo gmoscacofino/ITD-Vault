@@ -12,7 +12,7 @@ Una colección de **~60 notas en Markdown** que cubren toda la teoría del curso
 
 ```
 ITD-Vault/
-├── 00-Config/            → INDEX (mapa del vault) + Cheat-Sheet + Excalidraw
+├── 00-Config/            → INDEX (mapa del vault) + Cheat-Sheet
 ├── 01-Teoria/
 │   ├── Sistema-Tributario/   → panorama general del sistema impositivo argentino
 │   ├── Ganancias/        → 13 notas: objeto, sujetos, fuente, tasas, quebrantos, 

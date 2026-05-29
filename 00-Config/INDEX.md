@@ -18,7 +18,6 @@
 
 ### Si estás preparando un caso
 - Identificá los **4 elementos del Hecho Imponible** para cada impuesto en juego.
-- Visualizá el árbol de decisión: **`Razonamiento-Por-Impuesto.excalidraw`** (requiere plugin Excalidraw en Obsidian).
 - Buscá el impuesto específico en este índice.
 
 ---
@@ -27,10 +26,8 @@
 
 | Nota | Tema |
 |---|---|
-| [[SYSTEM-PROMPT]] | Prompt para que Claude opere como mentor del curso |
 | [[INDEX]] | Este archivo |
 | [[Cheat-Sheet-Parcial]] | Resumen ejecutivo para repaso final (1 página) |
-| `Razonamiento-Por-Impuesto.excalidraw` | Árbol visual de decisión (abrir con plugin Excalidraw) |
 
 ---
 

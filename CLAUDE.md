@@ -76,7 +76,6 @@ Cuando llegue una pregunta, buscá en este orden:
 5. **`03-Ejercicios/Consignas/`** — para conocer enunciados pendientes de resolución.
 6. **`04-Parciales-Anteriores/`** — para ver cómo se evaluó algo similar.
 
-Para encuadrar un caso desde cero, también podés referenciar **`00-Config/Razonamiento-Por-Impuesto.excalidraw`** (árbol visual de decisión).
 
 ---
 
@@ -186,7 +185,7 @@ Cuando un tema entre en una de estas zonas, advertí explícitamente que hay amb
 ## Estructura del vault
 
 ```
-00-Config/        ← CLAUDE.md, INDEX, Cheat-Sheet, Excalidraw
+00-Config/        ← CLAUDE.md, INDEX, Cheat-Sheet
 01-Teoria/         ← Ganancias, IVA, IIBB, IDyCB, Sistema Tributario
 02-Conceptos-Clave/← Hecho Imponible, Tax Credit, Gross-up, Fallos
 03-Ejercicios/
