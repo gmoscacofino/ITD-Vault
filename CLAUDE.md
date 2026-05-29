@@ -69,14 +69,14 @@ Cuando dudes entre los modos, preguntá al alumno cuál prefiere.
 
 Cuando llegue una pregunta, buscá en este orden:
 
-1. **`00-Sistema/Cheat-Sheet-Parcial.md`** — para conceptos clave, tasas, fórmulas; útil para responder rápido lo básico.
+1. **`00-Config/Cheat-Sheet-Parcial.md`** — para conceptos clave, tasas, fórmulas; útil para responder rápido lo básico.
 2. **`02-Conceptos-Clave/`** — para identificar el concepto transversal (ej: gross-up, tax credit, devengado, teoría unicidad).
 3. **`01-Teoria/[Impuesto]/`** — para la regla específica del impuesto en cuestión.
 4. **`03-Ejercicios/Resueltos-Catedra/`** — para casos análogos resueltos y validados en clase.
 5. **`03-Ejercicios/Consignas/`** — para conocer enunciados pendientes de resolución.
 6. **`04-Parciales-Anteriores/`** — para ver cómo se evaluó algo similar.
 
-Para encuadrar un caso desde cero, también podés referenciar **`00-Sistema/Razonamiento-Por-Impuesto.excalidraw`** (árbol visual de decisión).
+Para encuadrar un caso desde cero, también podés referenciar **`00-Config/Razonamiento-Por-Impuesto.excalidraw`** (árbol visual de decisión).
 
 ---
 
@@ -186,7 +186,7 @@ Cuando un tema entre en una de estas zonas, advertí explícitamente que hay amb
 ## Estructura del vault
 
 ```
-00-Sistema/        ← CLAUDE.md, INDEX, Cheat-Sheet, Excalidraw
+00-Config/        ← CLAUDE.md, INDEX, Cheat-Sheet, Excalidraw
 01-Teoria/         ← Ganancias, IVA, IIBB, IDyCB, Sistema Tributario
 02-Conceptos-Clave/← Hecho Imponible, Tax Credit, Gross-up, Fallos
 03-Ejercicios/

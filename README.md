@@ -12,7 +12,7 @@ Una colección de **~60 notas en Markdown** que cubren toda la teoría del curso
 
 ```
 ITD-Vault/
-├── 00-Sistema/           → INDEX (mapa del vault) + SYSTEM-PROMPT para Claude
+├── 00-Config/            → INDEX (mapa del vault) + Cheat-Sheet + Excalidraw
 ├── 01-Teoria/
 │   ├── Sistema-Tributario/   → panorama general del sistema impositivo argentino
 │   ├── Ganancias/        → 13 notas: objeto, sujetos, fuente, tasas, quebrantos, 
@@ -46,7 +46,7 @@ Las notas integran información de las distintas fuentes (clase, materiales ofic
 
 ### Empezá por acá
 
-Abrí **`00-Sistema/INDEX.md`** — es el mapa completo con tablas, esquemas de navegación rápida y los puntos de entrada según qué estés estudiando.
+Abrí **`00-Config/INDEX.md`** — es el mapa completo con tablas, esquemas de navegación rápida y los puntos de entrada según qué estés estudiando.
 
 ---
 
@@ -136,9 +136,7 @@ Con MCP Obsidian, **Claude lee el vault directamente** y responde preguntas usan
    - Configurá apuntando a la carpeta `ITD-Vault` que clonaste.
    - (Si no aparece directamente, googlear "Obsidian MCP Claude" — hay guías paso a paso, va cambiando rápido).
 
-3. **Cargá el SYSTEM-PROMPT** que está en `00-Sistema/SYSTEM-PROMPT.md`. Copialo y pegalo como instrucciones personalizadas en un nuevo proyecto de Claude.
-
-4. **Listo**: ahora cuando le preguntes a Claude algo del curso, va a buscar en tus notas primero antes de responder. Ejemplo: "explicame el Fallo Angulo usando lo que está en el vault" — Claude lee la nota correspondiente y te responde con esa información.
+3. **Listo**: ahora cuando le preguntes a Claude algo del curso, va a buscar en tus notas primero antes de responder. Ejemplo: "explicame el Fallo Angulo usando lo que está en el vault" — Claude lee la nota correspondiente y te responde con esa información.
 
 ---
 
@@ -160,7 +158,7 @@ Para mantener consistencia si edites o agregás notas:
 
 2. **Pull antes de editar, sync después.** Para evitar conflictos.
 
-3. **Si agregás contenido nuevo, actualizá el INDEX.** En `00-Sistema/INDEX.md`.
+3. **Si agregás contenido nuevo, actualizá el INDEX.** En `00-Config/INDEX.md`.
 
 4. **Validá contra la cátedra antes del parcial.** Las notas reflejan lo enseñado en clase + materiales, pero los montos, alícuotas y umbrales pueden estar desactualizados. Revisá con García/Oyola.
 
