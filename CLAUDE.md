@@ -78,6 +78,51 @@ Cuando llegue una pregunta, buscá en este orden:
 
 ---
 
+## Reglas críticas por impuesto — nunca olvidar
+
+### Ganancias
+
+- **Teoría de la fuente (PH)**: requiere periodicidad + permanencia + habilitación, **las 3 juntas**.
+- **Teoría del balance (PJ)**: todo ingreso de negocio real está gravado. Incluye condonación de pasivos, diferencias de cambio, indemnizaciones.
+- **Tax credit**: solo aplica sobre renta de fuente **extranjera**. Si el servicio se presta desde AR (home office), la retención del exterior es **costo**, no crédito.
+- **Art. 93 LIG — tasas efectivas**: vinculadas 100% → 35%; asesoramiento 60% → 21%; cesión derechos/marcas 80% → 28%; residual 90% → 31,5%.
+- **Gross-up**: `Bruto = Neto / (1 - tasa efectiva)`
+- **Art. 24 — vinculadas del exterior**: paga antes del vto DDJJ → deduce devengado. Paga después → deduce en año de pago. Solo aplica si la renta es fuente AR para el acreedor.
+- **Reorganización libre (Art. 77/80)**: control ≥ 80% durante 2 años previos + actividad mantenida 2 años después + actividades vinculadas en 12 meses previos + cese ≤ 18 meses.
+- **Salidas no documentadas (Art. 40)**: 35% adicional sobre el gasto + gasto NO deducible. El IVA nunca es costo.
+- **Diferencias de cambio (Art. 164 DR)**: NO se admite diferencia de cambio por transformar deuda a otra moneda, salvo al pago o novación.
+- **Quebrantos específicos** (5 años, solo contra misma fuente): venta de acciones, fuente extranjera, derivados (no cobertura), inmuebles, recursos naturales no renovables.
+
+### IVA
+
+- **Responsable sustituto (Art. 4 inc. h)**: el RI ingresa el IVA en nombre del proveedor del exterior. Es **neutro económicamente** (CF mes siguiente), solo hay costo financiero.
+- **Empresa constructora**: el requisito es **propósito de lucro con la ejecución o venta**, NO el objeto social.
+- **Ajuste CF inmueble (Art. 11 DR)**: si vendés/desafectás dentro de los **10 años** desde finalización de obra, hay que devolver el CF computado.
+- **Cesión definitiva de marca**: NO gravada. Cesión temporal: gravada (zona gris DR vs Ley).
+- **Exportación de servicios**: gravada a tasa **0%** (NO exenta). Permite recuperar CF vinculado.
+- **Servicios digitales B2C**: aplica criterio de utilización económica. Para otros servicios, el criterio es lugar de prestación.
+- **Diferencias de cambio**: gravadas por teoría de la unicidad (siguen lo accesorio a lo principal).
+- **Pirámide jurídica**: DR contradice Ley → prevalece Ley. Resolución contradice DR → prevalece DR.
+
+### IIBB
+
+- **Sociedad → siempre alcanzada**, aunque sea de profesionales universitarios. La exención de profesiones liberales es solo para el profesional individual no organizado en empresa.
+- **Habitualidad** se presume siempre para sociedades. **Onerosidad, no lucratividad**: paga aunque pierda.
+- **Bien de uso**: la categoría al momento de la **venta** determina si aplica la exclusión. Si se desafectó antes, paga IIBB.
+- **Base imponible**: NO integran IVA (sobre 100, no 121), reintegros de capital, reintegros de gastos, subsidios, reintegros de exportación, venta de bienes de uso.
+- **Convenio Multilateral**: requiere gastos E ingresos en más de una jurisdicción. No alcanza con tener clientes en otras provincias.
+- **Régimen General**: 50% ingresos / 50% gastos.
+- **Régimen Especial 20/80** (profesiones liberales): solo individuos. 20% oficina, 80% donde se presta.
+- **Régimen Especial 10/90** (construcción): 10% oficina, 90% obra.
+- **Exportación de servicios exenta**: el servicio debe efectivizarse en el exterior, no basta que el cliente sea del exterior.
+
+### IDyCB
+
+- Tasa: **0,6% débito + 0,6% crédito = 1,2% total**.
+- Pago a cuenta de Ganancias: microempresas 100%, manufacturera mediana tramo I 60%, resto 33% (⅔ pérdida + ⅓ crédito).
+
+---
+
 ## Estilo de respuesta
 
 - **Conclusión primero**, fundamento después. Empezá con "SI gravado" / "NO gravado" / "EXENTO" / etc., y después desarrollá.
