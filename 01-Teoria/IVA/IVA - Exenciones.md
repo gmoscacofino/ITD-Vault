@@ -79,11 +79,41 @@
 - Operaciones con valores.
 - Seguros (con matices).
 
-### Concesiones públicas
-- Las concesiones **públicas** (otorgadas por el Estado) están exentas.
-- Las concesiones **privadas** SÍ están gravadas.
+### Honorarios de directorio, síndicos y consejo de vigilancia
 
-> Por qué la distinción: antes muchos negocios escapaban del IVA disfrazando alquileres como "concesiones privadas". La ley lo cerró.
+Los **honorarios de directores, síndicos y miembros del consejo de vigilancia** (y equivalentes en otras sociedades, fundaciones, cooperativas) están **exentos de IVA**, siempre que:
+- Se acredite la **efectiva prestación de servicios**.
+- Exista una **razonable relación** entre el honorario y la tarea desempeñada.
+- La tarea responda a los **objetivos de la entidad** y sea compatible con prácticas y usos del mercado.
+
+> Fuente: **Material de Lectura #5**
+
+### Concesiones — zona gris (ver CLAUDE.md)
+
+==**La Ley de IVA exime "el otorgamiento de concesiones" sin distinguir público vs privado**==. Pero el Decreto Reglamentario restringe la exención solo a las concesiones **otorgadas por el Estado** (Nacional, Provincial, Municipal o CABA).
+
+| Tipo | Posición Ley | Posición DR / AFIP |
+|---|---|---|
+| Concesión pública (Estado → privado) | Exenta | Exenta |
+| Concesión privada (privado → privado) | Exenta (no distingue) | **Gravada** |
+
+**Ejemplo**:
+- El gobierno otorga a Metrovías la explotación del subte → **NO IVA** (concesión pública).
+- Metrovías le cede a una empresa parte de una estación para instalar un local → **IVA** (concesión privada según DR/AFIP).
+
+==**Riesgo**: quien otorga una concesión privada confiando en la ley puede recibir ajuste de AFIP basado en el DR==. Recomendación: asumir contingencia en concesiones privadas.
+
+> Fuente: **Material de Lectura #5** — Pirámide jurídica: DR contradice Ley → prevalece Ley, pero AFIP aplica el DR.
+
+### Subsidios — no gravados
+
+==Los **subsidios** otorgados por el Estado **no están gravados con IVA**==.
+
+**Lógica del análisis**: un subsidio es una transferencia del Estado que compensa parte del precio al usuario. Si existiera sin el subsidio, el precio pleno se le cobraría al usuario y no habría dudas sobre el IVA. El subsidio reemplaza precio que nadie cobra. Por lo tanto, el fisco no puede exigir IVA sobre el subsidio que no es un precio de venta.
+
+> Fuente: **Material de Lectura #5** — Dictamen AFIP 35/2013 (disponible en campus ITBA): Los subsidios no están gravados en IVA.
+
+> También aplica en **IIBB**: los subsidios y subvenciones del Estado no integran la base imponible de IIBB.
 
 ---
 

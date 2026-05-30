@@ -197,6 +197,56 @@ Considerar:
 
 ---
 
+---
+
+## Régimen especial — CF por adquisición de bienes de uso
+
+### El problema de las inversiones de capital
+
+Cuando una empresa invierte fuertemente en **bienes de uso** (una planta industrial, maquinaria), el CF generado por esa compra puede quedar inmovilizado como saldo técnico por años, generando una pérdida financiera importante (especialmente en contexto inflacionario).
+
+### La solución: devolución anticipada
+
+La Reforma Tributaria de 2017 (Acuerdo Nación-Provincias que también involucró IIBB y Sellos) incorporó un régimen para **recuperar anticipadamente el CF** de bienes de uso.
+
+#### Condición 1 — 6 períodos consecutivos
+
+El saldo técnico originado en la adquisición de bienes de uso puede solicitarse como devolución cuando **forme parte del saldo a favor técnico luego de 6 períodos fiscales (meses) consecutivos**.
+
+- El CF de bienes de uso se imputa contra el DF una vez computados todos los demás CF y los pagos a cuenta.
+- Es decir: los bienes de uso son los últimos en absorber DF. Si después de 6 meses aún queda saldo, se puede pedir la devolución.
+
+#### Leasing: caso especial
+
+| Tipo de leasing | Cuándo se computa el CF |
+|---|---|
+| **Operativo** (sin ejercicio de opción de compra) | Momento de la entrega del bien. Si no se ejerce la opción: **reintegro** del CF computado. |
+| **Financiero** (con ejercicio de opción de compra) | Al ejercer la opción. CF de los cánones y de la opción se computan en ese momento. |
+
+#### Al momento de solicitar la devolución
+
+Los bienes de uso deben **integrar el patrimonio del contribuyente** al momento de la solicitud.
+
+#### Condiciones para que la devolución sea definitiva
+
+La devolución queda sujeta a 2 condiciones durante los **60 períodos fiscales siguientes** al de la devolución:
+
+| Condición | Detalle |
+|---|---|
+| **Mercado interno** | Las sumas devueltas deben aplicarse al pago de IVA (no incumplir el pago de IVA hasta el monto recibido). |
+| **Mercado externo** | Las sumas devueltas deben aplicarse al pago del CF de exportaciones (cumplir con pagos a proveedores vinculados a exportaciones). |
+
+**Ambas condiciones deben cumplirse simultáneamente.**
+
+#### Incumplimiento
+
+Si dentro de los 60 períodos:
+- La empresa cesa actividades, se disuelve o se reorganiza sin ser reorganización libre de impuesto → **restitución de los montos más intereses**.
+
+> Fuente: **Material de Lectura #5** — Régimen Saldo a Favor IVA Adquisición Bienes de Uso.
+
+---
+
 ## Conceptos relacionados
 
 - [[IVA - Concepto y Logica]] — mecánica DF/CF

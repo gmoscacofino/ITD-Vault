@@ -62,16 +62,43 @@ Amortización anual sobre $200M (menor que sobre $300M)
 
 > Un bien de uso es aquel con vida útil mayor a 1 año, afectado a la actividad. Ejemplos: máquinas, vehículos, inmuebles afectados, computadoras.
 
-### Requisito 2: Reemplazo
-El bien vendido debe ser **reemplazado por otro bien de uso afectado a la misma actividad**.
+### Requisito 2: Tipo y condiciones especiales para inmuebles
+
+Para **bienes muebles amortizables**: el bien vendido se reemplaza por otro bien de uso.
+
+Para **inmuebles afectados a la explotación como bien de uso**, aplican condiciones adicionales:
+- El destino del inmueble como bien de uso debe tener **como mínimo 2 años de antigüedad** al momento de la enajenación.
+- El importe obtenido debe **reinvertirse** en el bien de reemplazo o en otros bienes de uso afectados a la explotación.
+
+> "Por reemplazo de un inmueble" se entiende tanto la adquisición de otro inmueble, como la adquisición de un terreno y ulterior construcción en él, o la sola construcción sobre terreno adquirido con anterioridad.
 
 ### Requisito 3: Plazo
-La venta y la compra del bien de reemplazo deben ocurrir:
-- Dentro del **mismo ejercicio fiscal**, o
-- Dentro del **ejercicio inmediato anterior o posterior** (plazo total ~1 año)
-- Para **inmuebles con construcción**: hasta **4 años**
 
-### Requisito 4: Comunicación al fisco
+La venta y la compra del bien de reemplazo deben ocurrir dentro del **término de 1 año**.
+
+Para **inmuebles con construcción**:
+- La construcción puede ser **anterior o posterior** a la venta del bien reemplazado.
+- Entre la fecha de venta del bien reemplazado y la **iniciación de las obras**: no puede transcurrir más de **1 año**.
+- Las obras deben **concluirse en un plazo máximo de 4 años** desde su iniciación.
+
+### Requisito 4: Manifestación al fisco
+
+La opción debe **manifestarse dentro del plazo** establecido para la presentación de la declaración jurada correspondiente al ejercicio en que se produzca la venta del bien.
+
+### Qué pasa si se compró el bien de reemplazo antes de vender
+
+Si se optó por afectar la ganancia al costo de un bien **adquirido con anterioridad** (primero compré el nuevo, luego vendí el viejo):
+- La amortización en exceso practicada por el bien de reemplazo debe **reintegrarse al balance impositivo** en el ejercicio fiscal en que se produzca la venta del bien reemplazado.
+
+### Qué pasa si no se hace el reemplazo en plazo
+
+Si se ejerció la opción pero:
+- No se adquirió el bien de reemplazo dentro del plazo, o
+- No se iniciaron o concluyeron las obras dentro de los plazos fijados:
+
+→ La utilidad obtenida por la enajenación, **debidamente actualizada**, debe imputarse al ejercicio en que se produzca el vencimiento del plazo correspondiente.
+
+### Requisito 5: Comunicación al fisco
 Se debe informar a AFIP el uso del beneficio (formulario específico).
 
 ---

@@ -142,6 +142,18 @@ Cuando la actividad **NO entra en ningún régimen especial**. La mayoría de la
 > Alquiler: jurisdicción donde está la oficina.
 > Compras: jurisdicción donde está el proveedor (generalmente).
 
+#### Gastos NO computables (excluidos del 50% gastos)
+
+Los siguientes gastos **no entran** en el coeficiente de gastos del Régimen General:
+
+1. **Costo de bienes de cambio** (mercadería vendida)
+2. **Publicidad**
+3. **Impuestos**
+4. **Intereses**
+5. **Honorarios de directorio** que excedan el 1% de la utilidad del Estado de Resultados
+
+> Estos ítems se excluyen porque distorsionarían la distribución (son "artificiales" o no reflejan dónde se desarrolla la actividad económica real).
+
 ### Cálculo aplicado
 
 ```

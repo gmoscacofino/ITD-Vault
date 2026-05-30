@@ -132,6 +132,129 @@ Excedente que pasa a años siguientes: 14.000
 
 ---
 
+## Reglas específicas de amortización
+
+### Inmuebles — Art. 87 LIG
+
+==**Tasa de amortización de edificios**: **2% anual**== sobre el costo del edificio o construcción (o sobre la parte del valor de adquisición atribuible al edificio, según avalúo fiscal).
+
+- **Desde**: trimestre de **afectación** (alta).
+- **Hasta**: trimestre en que se agote el valor, o el trimestre inmediato anterior al de **venta o desafectación** de la actividad.
+- El importe se ajusta por inflación.
+
+> **Truco del avalúo fiscal**: si comprás un inmueble (terreno + edificio) y el avalúo fiscal asigna 70% al edificio y 30% al terreno, amortizás el 2% sobre el 70% del precio de adquisición (el terreno nunca se amortiza).
+
+### Bienes muebles — Art. 88 LIG
+
+- Se divide el **costo de adquisición** por los **años de vida útil probable** → amortización lineal anual.
+- El Fisco puede admitir criterios distintos (unidades producidas, horas trabajadas) cuando razones técnicas lo justifiquen.
+- Hoy se admite amortización por **obsolescencia** (no solo por vida útil técnica).
+- La cuota de amortización ordinaria se **ajusta por inflación** (coeficiente de actualización = 1 en períodos sin actualización autorizada).
+- Igual tratamiento para **bienes inmateriales amortizables** (patentes, marcas con vida útil definida, software, etc.).
+
+### Vida útil típica (referencia práctica)
+
+| Bien | Vida útil | Amortización anual |
+|---|---|---|
+| Inmuebles (edificio) | 50 años | 2% |
+| Equipos industriales | 10 años | 10% |
+| Vehículos utilitarios | 5 años | 20% |
+| Computadoras / IT | 3 años | ~33% |
+
+---
+
+## Gastos deducibles — Art. 86 LIG
+
+Otros gastos deducibles expresamente reconocidos:
+
+a) **Impuestos y tasas** que recaen sobre los bienes que producen ganancias (ej. impuesto inmobiliario de la oficina propia).
+
+b) **Primas de seguros** que cubran riesgos sobre bienes que producen ganancias.
+
+c) **Pérdidas extraordinarias por caso fortuito o fuerza mayor** (incendios, tempestades, accidentes, siniestros) sobre bienes que producen ganancias, en cuanto NO fuesen cubiertas por seguros o indemnizaciones.
+
+d) **Pérdidas comprobadas por delitos** cometidos contra los bienes generadores de renta, por parte de empleados, en cuanto no fuesen cubiertas por seguros o indemnizaciones.
+
+> En los puntos c) y d), si hay seguro o indemnización que cubre el daño, no se deduce (porque no hay pérdida neta).
+
+---
+
+## Deudores incobrables — Art. 91 inc. b)
+
+Solo se admite la deducción por **incobrables** que tengan su **origen en operaciones comerciales** (no aplica a préstamos entre vinculadas sin respaldo).
+
+### Índices de incobrabilidad (Art. 136 DR)
+
+Para deducir un incobrable, se necesita que exista al menos uno de los siguientes índices:
+
+1. **Verificación del crédito en concurso preventivo** del deudor.
+2. **Declaración de quiebra** del deudor.
+3. **Desaparición fehaciente** del deudor.
+4. **Iniciación de acciones judiciales** tendientes al cobro.
+5. **Paralización manifiesta** de las operaciones del deudor.
+6. **Prescripción** de la deuda.
+
+> Hasta que no se verifique uno de estos índices, el crédito dudoso no es deducible aunque se sepa que no va a cobrar.
+
+---
+
+## Gastos de organización — Art. 91 inc. c)
+
+Los gastos de organización (constitución de la empresa, honorarios para armar la estructura inicial) se pueden:
+- Afectar **en su totalidad al primer ejercicio**, o
+- Amortizar en un **plazo no mayor de 5 años** (a opción del contribuyente).
+
+---
+
+## Gastos de representación — Art. 91 inc. i)
+
+### Límite deducible
+Hasta una suma equivalente al **1,50% del monto total de las remuneraciones pagadas** en el ejercicio fiscal al personal en relación de dependencia.
+
+### Definición (Art. 221 DR)
+==Toda erogación realizada o reembolsada por la empresa que reconozca como finalidad su **representación fuera del ámbito de sus oficinas, locales o establecimientos**, o en relaciones encaminadas a mantener o mejorar su posición de mercado==, incluidas las originadas por viajes, agasajos y obsequios que respondan a esos fines.
+
+**No** son gastos de representación:
+- Los gastos de viaje de **acompañantes** de las personas que representan a la empresa.
+- Gastos dirigidos a la masa de consumidores potenciales (eso es **publicidad**).
+- Viáticos y gastos de movilidad.
+
+---
+
+## Donaciones — Art. 85 inc. c)
+
+Las sociedades pueden deducir donaciones hasta el **5% de la ganancia neta del ejercicio** cuando se efectúen a los siguientes sujetos:
+
+- **Fiscos** nacional, provinciales y municipales.
+- **Fondo Partidario Permanente** y **partidos políticos**.
+- **Instituciones religiosas**.
+- **Asociaciones y fundaciones** cuyo objetivo principal sea:
+  1. Realización de obra médico-asistencial de beneficencia sin fines de lucro.
+  2. Investigación científica y tecnológica.
+  3. Investigación científica sobre cuestiones económicas, políticas y sociales orientadas al desarrollo de los planes de partidos políticos.
+  4. Actividad educativa sistemática y de grado para el otorgamiento de títulos reconocidos oficialmente por el Ministerio de Educación.
+
+> Donaciones a entidades no listadas: **NO deducibles**.
+
+---
+
+## Honorarios de directores — tope y momento
+
+### Límite de monto (Art. 91 inc. j LIG)
+
+Las sumas a deducir en concepto de honorarios de directores, síndicos y similares no podrán exceder:
+- ==**El mayor de**: **25%** de las utilidades contables del ejercicio==, o
+- ==**$12.500 por cada director o síndico**== (monto histórico, pendiente actualización).
+
+### Momento de la deducción
+
+| Cuándo se asignan los honorarios | Cuándo se deduce |
+|---|---|
+| Antes del vto. de la DDJJ del ejercicio | En el **ejercicio por el cual se pagan** |
+| Después del vto. de la DDJJ | En el **ejercicio en que se asignan** |
+
+---
+
 ## Gastos NO deducibles — Art. 88 LIG
 
 ### Gastos personales o de subsistencia del contribuyente o su familia

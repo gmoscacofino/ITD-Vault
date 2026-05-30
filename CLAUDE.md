@@ -92,6 +92,7 @@ Cuando llegue una pregunta, buscá en este orden:
 - **Salidas no documentadas (Art. 40)**: 35% adicional sobre el gasto + gasto NO deducible. El IVA nunca es costo.
 - **Diferencias de cambio (Art. 164 DR)**: NO se admite diferencia de cambio por transformar deuda a otra moneda, salvo al pago o novación.
 - **Quebrantos específicos** (5 años, solo contra misma fuente): venta de acciones, fuente extranjera, derivados (no cobertura), inmuebles, recursos naturales no renovables.
+- **Capitalización exigua (Art. 85 a)**: deducción de intereses por deuda con vinculadas (locales o exterior) limitada al **30% de la ganancia neta antes de intereses financieros y amortizaciones** (EBITDA impositivo). El excedente acumulado de los 3 períodos anteriores se suma y queda sujeto al mismo límite.
 
 ### IVA
 
@@ -115,14 +116,16 @@ Cuando llegue una pregunta, buscá en este orden:
 - **Régimen Especial 20/80** (profesiones liberales): solo individuos. 20% oficina, 80% donde se presta.
 - **Régimen Especial 10/90** (construcción): 10% oficina, 90% obra.
 - **Exportación de servicios exenta**: el servicio debe efectivizarse en el exterior, no basta que el cliente sea del exterior.
+- **Convenio Multilateral — gastos NO computables** en el 50% de gastos del Régimen General: i) costo de bienes de cambio, ii) publicidad, iii) impuestos, iv) intereses, v) honorarios de directorio que excedan el 1% de la utilidad del EECC.
 
 ### IDyCB
 
 - Tasa: **0,6% débito + 0,6% crédito = 1,2% total**.
 - Cómputo según tipo de empresa:
-  - **Microempresas**: 30% como pago a cuenta de contribuciones patronales (70% es costo).
+  - **Microempresas**: 30% contra Contribuciones Patronales (límite 15% de las patronales), **Y también** 100% contra Ganancias.
   - **Pequeñas MiPyME**: 100% contra Ganancias (0% costo).
-  - **Resto (medianas/grandes)**: 33% contra Ganancias (⅔ costo + ⅓ crédito).
+  - **Manufacturera mediana tramo I**: 60% contra Ganancias (excedente no computado: 33% se traslada a ejercicios futuros hasta agotarse).
+  - **Resto**: 33% contra Ganancias (⅔ costo + ⅓ crédito).
 
 ---
 
@@ -147,6 +150,7 @@ Cuando un tema entre en una de estas zonas, advertí explícitamente que hay amb
 | CDs importados de casa matriz (Mat. 6 Caso 3 punto 4) | Ambiguo en notas | Sugerir confirmar con el profe |
 | Agasajo en exterior (Mat. 6 Caso 3 punto 5) | Ambiguo en notas | Sugerir confirmar con el profe |
 | IIBB sobre venta de intangible nunca usado | Sin norma expresa | Argumentar por analogía a bien de uso + falta de habitualidad |
+| Concesiones privadas en IVA | Ley: todas exentas. AFIP: solo públicas están exentas | Asumir contingencia en concesiones privadas |
 
 ---
 

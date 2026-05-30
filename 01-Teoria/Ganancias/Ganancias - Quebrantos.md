@@ -67,19 +67,20 @@ Los quebrantos **se actualizan por inflación** (mediante coeficientes definidos
 - Provienen de ciertas actividades específicas (definidas por ley).
 - Solo pueden compensarse contra ganancias del **mismo tipo**.
 
-### Tipos de quebranto específico
+### Tipos de quebranto específico (Art. 25 LIG)
 
 | Actividad | Razón de la restricción |
 |---|---|
-| **Acciones, cuotas partes, valores negociables** | Para evitar que pérdidas de inversiones financieras compensen actividad operativa |
-| **Monedas digitales (criptomonedas)** | Similar lógica |
-| **Fuente extranjera** | Solo se compensa con fuente extranjera |
-| **Derivados financieros sin cobertura** (especulación) | Para distinguir cobertura del negocio de pura especulación |
-| **Recursos naturales plataforma continental** | Régimen especial |
-| **Juegos de azar** | Para que las pérdidas de juego no compensen otros negocios |
-| **Gaming (apuestas electrónicas)** | Similar al anterior |
+| **Acciones, cuotas partes, valores negociables, monedas digitales (criptomonedas), títulos, bonos, certificados de depósito, FCI, Fideicomisos Financieros** | Para evitar que pérdidas de inversiones financieras compensen actividad operativa |
+| **Fuente extranjera** | Solo se compensa con ganancias de fuente extranjera |
+| **Derivados financieros sin cobertura** (especulación) | Para distinguir cobertura del negocio de pura especulación. La cobertura del negocio genera quebranto general. |
+| **Recursos naturales vivos y no vivos de plataforma continental y zona económica exclusiva** (incluye islas artificiales, instalaciones y estructuras) | Solo contra ganancias netas de fuente argentina |
+| **Juegos de azar en casinos** (ruleta, blackjack, póker, etc.) y **apuestas electrónicas** (máquinas de azar, plataformas digitales) | Para que las pérdidas de juego no compensen otros negocios |
+| **Inmuebles** | Solo contra ganancias de la misma naturaleza |
 
-> Mnemotécnica: las actividades de mayor riesgo o especulación generan quebrantos específicos para que sus pérdidas no "contaminen" la base imponible de actividades reales.
+> Fuente: Art. 25 LIG. Mnemotécnica: las actividades de mayor riesgo o especulación generan quebrantos específicos para que sus pérdidas no "contaminen" la base imponible de actividades reales.
+
+> **Detalle cobertura vs especulación (derivados)**: una transacción o contrato derivado se considera de **cobertura** si tiene por objeto reducir el efecto de las futuras fluctuaciones en precios o tasas de mercado sobre los bienes, las deudas y los resultados de la actividad económica principal. Si no cumple esa condición, es especulación → quebranto específico.
 
 ---
 

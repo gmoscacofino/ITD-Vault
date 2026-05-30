@@ -150,6 +150,35 @@ Si la tasa para esta actividad es 5%:
 
 ---
 
+## Supuestos especiales de base imponible
+
+### Venta de inmuebles en cuotas
+
+En las operaciones de venta de inmuebles en cuotas por plazos **superiores a 12 meses**, la base imponible está constituida por la **suma total de las cuotas o pagos que vencieran en cada período** (mes a mes).
+
+> Lógica: el ingreso se devenga según los vencimientos de cada cuota, no en el momento de la escritura.
+
+### Intermediarios
+
+Para comisionistas, consignatarios, mandatarios, corredores, concesionarios, agentes oficiales de venta y representantes, o cualquier otro tipo de intermediario, la base imponible es la **diferencia entre los ingresos y los importes que corresponde transferir a los comitentes** por las operaciones realizadas en el período fiscal.
+
+- No están gravados los ingresos obtenidos por cuenta y orden de terceros.
+- Si el intermediario presta servicios con **recursos propios**: la base son los ingresos totales por esos servicios (tratamiento general).
+- Los **franquiciados** que trabajan con precios regulados por el franquiciante NO se tratan como intermediarios, salvo que la mercadería se haya entregado en consignación.
+
+### Diferencias entre precios de compra y de venta
+
+En ciertos casos específicos, la base imponible es la **diferencia entre precios de compra y de venta** (no el precio de venta total):
+
+1. Comercialización **mayorista y minorista de tabacos, cigarros y cigarrillos**.
+2. Comercialización de **productos agrícola-ganaderos** por cuenta propia por acopiadores, en la parte adquirida directamente a los propios productores.
+3. Comercialización **mayorista de medicamentos** para uso humano.
+4. Distribución **mayorista y/o minorista de gas licuado de petróleo** en garrafas, cilindros o similares.
+
+> En estos sectores con márgenes muy acotados, la base sobre el precio total sería confiscatoria, por eso se permite tomar solo el margen bruto.
+
+---
+
 ## Casos puntuales
 
 ### Honorarios de directorio

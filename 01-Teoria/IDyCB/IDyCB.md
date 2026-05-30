@@ -10,8 +10,9 @@
 - **NO grava resultados**, grava **transacciones**.
 - **Tasa**: 0,6% por cada débito y 0,6% por cada crédito = 1,2% total por flujo (con variaciones).
 - **Cómputo contra Ganancias**: depende del tipo de empresa:
-  - **Microempresas**: 30% como pago a cuenta de contribuciones patronales (70% es costo).
-  - **Pequeñas MiPyME**: 100% contra Ganancias.
+  - **Microempresas**: 30% contra Contribuciones Patronales (límite 15%), Y también 100% contra Ganancias.
+  - **Pequeñas MiPyME**: 100% contra Ganancias (0% costo).
+  - **Manufacturera mediana tramo I**: 60% contra Ganancias (excedente traslada con 33% a futuros).
   - **Resto**: 33% contra Ganancias (2/3 costo, 1/3 crédito).
 
 ---
@@ -69,17 +70,25 @@ Los cheques pueden tener tasa diferente y mecánicas particulares.
 
 #### Microempresas
 
-- **30% como pago a cuenta de contribuciones patronales**.
-- **70% es costo** (no se recupera).
+- **30% como pago a cuenta de contribuciones patronales** (con un límite del 15% de las patronales totales).
+- **Y también: 100% contra Ganancias** como crédito adicional.
+- 0% costo definitivo (todo se recupera entre ambos créditos).
 
-> Las contribuciones patronales son los aportes que paga el empleador sobre los sueldos.
+> Las microempresas tienen el beneficio DOBLE: patronales + Ganancias.
 
 #### Pequeñas MiPyME
 
 - **100% contra Ganancias** como crédito.
 - 0% costo (todo se recupera contra Ganancias).
 
-> Es el régimen más favorable.
+> Es el régimen más favorable para quien no califica como microempresa.
+
+#### Manufacturera mediana tramo I
+
+- **60% contra Ganancias** como crédito.
+- El excedente no computado puede trasladarse a ejercicios futuros con el régimen del **33%**.
+
+> Es una categoría intermedia entre la pequeña MiPyME (100%) y el resto (33%).
 
 #### Resto de empresas (medianas, grandes)
 
@@ -180,9 +189,9 @@ Pero el IDyCB:
 
 | Tipo empresa | % recuperado | % costo |
 |---|---|---|
-| Micro (industria) | 30% en patronales | 70% costo |
-| Micro (servicios) | 30% en patronales | 70% costo |
+| Microempresa | 30% patronales + 100% Ganancias | 0% costo |
 | Pequeña MiPyME | 100% contra Ganancias | 0% costo |
+| Manufacturera mediana tramo I | 60% contra Ganancias | 40% costo (excedente traslada 33%) |
 | Mediana / Grande | 33% contra Ganancias | 67% costo |
 
 ---
@@ -214,8 +223,8 @@ Pero el IDyCB:
 
 ## Errores comunes
 
-### Error 1 — Pensar que es 100% recuperable
-NO. Solo las MiPyME tienen 100% contra Ganancias. Las medianas y grandes tienen 33%. Y las microempresas tienen 30% (solo contra contribuciones patronales).
+### Error 1 — Confundir los regímenes
+Las **microempresas** tienen 30% contra contribuciones patronales **más** 100% contra Ganancias (doble beneficio). Las **pequeñas MiPyME** tienen 100% contra Ganancias. Las **manufactureras medianas tramo I** tienen 60% contra Ganancias. Las **medianas y grandes (resto)** solo tienen 33% contra Ganancias.
 
 ### Error 2 — Confundir crédito con costo
 ==Crédito es recuperar el 100% de ese dinero==. Costo es deducir como gasto (recuperás solo el % del impuesto). La diferencia es enorme.
