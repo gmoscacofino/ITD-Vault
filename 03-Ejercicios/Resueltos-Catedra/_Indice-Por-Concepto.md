@@ -105,8 +105,9 @@
 | [[Material 10/Caso I - Software Cadbury UK Argentina Uruguay\|Mat 10 · Caso I]] | Prestación en AR, uso 80% AR / 20% UY | Porción AR: 21%; porción UY: tasa 0% |
 | [[Material 10/Caso III - DevArg CRM Empresa Peruana\|Mat 10 · Caso III]] | Cliente no residente, uso en Perú | Tasa 0%, CF del proveedor recuperable |
 | [[Material 11/Caso I - Franquicia Detroit Brasil\|Mat 11 · Caso I]] | Ídem + cesión temporal de marca | Tasa 0%, no cobra IVA al cliente brasilero |
+| [[Material 12/Caso II - Asesoramiento Tributario Rumania\|Mat 12 · Caso II]] | ERP no disponible en AR → utilización no verificada en AR al momento del HI | Tasa 0%; si hay duda, firmar declaración del cliente |
 
-**Patrón:** tasa 0% ≠ exento. Permite recuperar CF. Y puede aplicarse parcialmente según % de uso en el exterior.
+**Patrón:** tasa 0% ≠ exento. Permite recuperar CF. Y puede aplicarse parcialmente según % de uso en el exterior. **El análisis de utilización se hace al momento del hecho, no sobre usos futuros hipotéticos.**
 
 ---
 
@@ -228,8 +229,19 @@
 | [[Material 10/Caso III - DevArg CRM Empresa Peruana\|Mat 10 · Caso III]] | ✅ SÍ (100%) | Servicio que se efectiviza íntegramente en el exterior |
 | [[Material 11/Caso I - Franquicia Detroit Brasil\|Mat 11 · Caso I]] | ✅ SÍ (100%) | Servicio que se efectiviza íntegramente en el exterior |
 | [[../../04-Parciales-Anteriores/Recuperatorio 2do Cuatrim 2025/Resolucion\|Recuperatorio 2025]] | ✅ SÍ (100%) | Derechos de exhibición utilizados 100% en Chile, Brasil, México |
+| [[Material 12/Caso II - Asesoramiento Tributario Rumania\|Mat 12 · Caso II]] | ✅ SÍ (100%) | ERP no disponible en AR al momento del HI → sin utilización verificada en AR |
 
-**Patrón:** no alcanza con que el cliente sea del exterior. El servicio debe efectivizarse afuera. Si hay uso parcial en AR, la exención aplica solo a la porción exterior.
+**Patrón:** no alcanza con que el cliente sea del exterior. El servicio debe efectivizarse afuera. Si hay uso parcial en AR, la exención aplica solo a la porción exterior. **El análisis se hace al momento del hecho, no sobre destinos futuros inciertos.**
+
+---
+
+## Contrato de no uso — protección ante utilización económica futura incierta
+
+| Caso | Situación | Consecuencia según contrato |
+|---|---|---|
+| [[Material 12/Caso II - Asesoramiento Tributario Rumania\|Mat 12 · Caso II]] | Cliente extranjero podría usar el asesoramiento en Argentina en el futuro | Sin contrato: AFIP cobra IVA si se verifica uso en AR. Con contrato de no uso: respaldo para mantener tasa 0%; responsabilidad recae en el cliente |
+
+**Patrón:** cuando la utilización económica futura en Argentina es incierta, la estrategia de planificación es obtener una declaración/contrato firmado por el cliente extranjero comprometiéndose a no usar el servicio en Argentina. Si más adelante igual lo usa: sin contrato → paga IVA la empresa argentina; con contrato → tiene respaldo y la responsabilidad es del cliente.
 
 ---
 
@@ -313,3 +325,4 @@
 | Mat 11 · Caso II | IVA exención, pérdida neutralidad, sustituto desaparece |
 | Parcial Dic 2025 | Precio todo incluido (gross-down), Tax credit vs costo, Exportación parcial, IDyCB sobre egresos AFIP |
 | Recuperatorio 2025 | Exportación total (distribución por ventas), Tax credit A1 ❌/A2 ✅, Gross-up Gordon, IVA sustituto ≠ costo, Rentabilidad mínima 30% |
+| Mat 12 · Caso II | Exportación de servicios (utilización incierta al momento del HI), Contrato de no uso como respaldo, IVA tasa 0%, IIBB exento |
