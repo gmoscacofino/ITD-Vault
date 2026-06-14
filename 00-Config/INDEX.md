@@ -7,9 +7,8 @@
 ## Cómo usar este vault
 
 ### Si estudias por primera vez
-1. Empieza por **[[Sistema Tributario Argentino]]** (panorama general).
-2. Lee los **conceptos clave** transversales (Hecho Imponible, Manifestaciones, etc.).
-3. Avanza por cada impuesto en orden: **Ganancias → IVA → IIBB → IDyCB**.
+1. Lee los **conceptos clave** transversales (Hecho Imponible, Devengado vs Percibido, Tax Credit, Gross-up).
+2. Avanza por cada impuesto en orden: **Ganancias → IVA → IIBB → IDyCB**.
 
 ### Si estás repasando
 - Salta directamente al impuesto/concepto donde tenés dudas.
@@ -32,12 +31,6 @@
 ---
 
 ## 01 - Teoría
-
-### Sistema Tributario General
-
-| Nota | Tema |
-|---|---|
-| [[Sistema Tributario Argentino]] | Panorama: impuestos nacionales, provinciales, municipales. Sistemas de tributación. |
 
 ### Ganancias (15 notas)
 
@@ -66,7 +59,6 @@
 | Nota | Tema |
 |---|---|
 | [[Ganancias - Salidas No Documentadas]] | Art. 40: 35% sin documentación |
-| [[Ganancias - Dividendo Ficto y Disposicion de Fondos]] | Régimen anti-abuso (8% inmuebles, 20% otros bienes) |
 | [[Ganancias - Reorganizacion Libre de Impuestos]] | Art. 77/80: fusión, escisión, conjunto económico |
 
 ### IVA (12 notas)
@@ -120,7 +112,6 @@
 | Nota | Tema |
 |---|---|
 | [[Hecho Imponible (4 elementos)]] | Marco teórico que aplica a todos los impuestos |
-| [[Manifestaciones de Riqueza]] | Renta, consumo, patrimonio (qué grava cada impuesto) |
 
 ### Distinciones técnicas
 | Nota | Tema |
@@ -128,7 +119,6 @@
 | [[Teoria de la Fuente vs Balance]] | Cómo se define renta en PH vs PJ |
 | [[Renta Mundial vs Territorialidad]] | Principios de vinculación fiscal |
 | [[Devengado vs Percibido]] | Cuándo se imputa la renta |
-| [[Sociedad de Capital vs Sociedad de Personas]] | SA, SRL, LLC, Corp |
 | [[Fideicomiso]] | Sujeto complejo, quién paga |
 
 ### Operaciones internacionales
@@ -181,12 +171,10 @@
 
 ### "Estoy analizando una sociedad"
 
-1. [[Sociedad de Capital vs Sociedad de Personas]] (tipo)
-2. [[Ganancias - Sujetos]] (cómo paga GAN)
-3. [[Ganancias - Tasas]] (tasa escalonada + 7%)
-4. [[Ganancias - Dividendo Ficto y Disposicion de Fondos]] (anti-abuso)
-5. [[IVA - Sujeto]] (RI)
-6. [[IIBB - Hecho Imponible]] (provincial)
+1. [[Ganancias - Sujetos]] (cómo paga GAN)
+2. [[Ganancias - Tasas]] (tasa escalonada + 7%)
+3. [[IVA - Sujeto]] (RI)
+4. [[IIBB - Hecho Imponible]] (provincial)
 
 ### "Estoy ante una reestructuración"
 
@@ -233,13 +221,12 @@
 
 | Material | Casos | Resuelto Cátedra | Conceptos clave |
 |---|---|---|---|
-| [[Material 06 - Consignas\|Mat 06]] | 5 | ✅ completo | Tax credit, Art. 93, Art. 24, Fideicomiso, Condonación |
-| [[Material 07 - Consignas\|Mat 07]] | 4 | ✅ completo | Gross-up, Reorganización, Fuente extranjera, IVA nacimiento HI |
-| Mat 08 | — | N/A (no existe en el campus) | — |
-| [[Material 09 - Consignas\|Mat 09]] | 5 | ✅ completo | IIBB CM, Empresa constructora, Ajuste CF, Bien de uso, Cuotas USD |
 | [[Material 10 - Consignas\|Mat 10]] | 3 | ✅ completo | Exportación parcial, Utilización económica, CF exportaciones |
 | [[Material 11 - Consignas\|Mat 11]] | 2 | ✅ completo | IVA exención (sustituto desaparece), Gross-up + tax credit integrado |
-| [[Material 12 - Consignas\|Mat 12]] | 3 | ⏳ pendiente | Representante comercial, Quebrantos, Venta y reemplazo |
+| [[Material 12 - Consignas\|Mat 12]] | 3 | ⚠️ parcial (Caso I cátedra, II Claude) | Representante comercial, Quebrantos, Venta y reemplazo |
+| [[Material 13 - Consignas\|Mat 13]] | 3 | ✅ completo | Utilización económica vs domicilio, Equipo propio vs subcontratación, Exportación + libre de impuestos |
+
+> **Materiales archivados** (menor relevancia para parcial actual): Mat 06, 07, 09 fueron movidos a `03-Ejercicios/_Archivo-Menor-Relevancia/`. Sus precedentes siguen mapeados en [[_Indice-Por-Concepto]].
 
 ### Índice de conceptos
 

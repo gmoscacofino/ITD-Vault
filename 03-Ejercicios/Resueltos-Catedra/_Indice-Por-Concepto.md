@@ -2,14 +2,16 @@
 
 > Usar este índice al resolver un ejercicio nuevo: identificar qué conceptos ya aparecieron, en qué casos y con qué resolución. Distinguir lo que es **patrón conocido** de lo que es **novedad**.
 
+> **Nota**: los Materiales 06, 07 y 09 fueron archivados en `03-Ejercicios/_Archivo-Menor-Relevancia/` (menor relevancia para el parcial actual, que prioriza Materiales 10+). Sus precedentes siguen siendo válidos y los links de abajo apuntan a la ubicación nueva.
+
 ---
 
 ## Tax Credit
 
 | Caso | Aplica | Clave |
 |---|---|---|
-| [[Material 06/Caso 1 - Software Factory AR Paraguay\|Mat 06 · Caso 1]] | ❌ NO | Home office en AR → fuente argentina → retención del exterior es COSTO |
-| [[Material 07/Caso 3 - Big Data Argentina Gobierno Frances\|Mat 07 · Caso 3]] | ✅ SÍ | Personal en Francia → fuente extranjera → retención es tax credit |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 06/Caso 1 - Software Factory AR Paraguay\|Mat 06 · Caso 1]] | ❌ NO | Home office en AR → fuente argentina → retención del exterior es COSTO |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 07/Caso 3 - Big Data Argentina Gobierno Frances\|Mat 07 · Caso 3]] | ✅ SÍ | Personal en Francia → fuente extranjera → retención es tax credit |
 | [[Material 10/Caso III - DevArg CRM Empresa Peruana\|Mat 10 · Caso III]] | ✅ SÍ (parcial) | Solo se puede usar si hay Ganancias a pagar; con pérdida se pierde |
 | [[Material 11/Caso I - Franquicia Detroit Brasil\|Mat 11 · Caso I]] | ✅ SÍ | Fuente extranjera + gross-up previo + límite alícuota AR (30%) |
 | [[../../04-Parciales-Anteriores/Diciembre 2025/Resolucion\|Parcial Dic 2025]] | A1 ❌ / A2-A3 ✅ | A1 prestado en AR = fuente AR = costo. A2/A3 en BR = fuente extranjera = tax credit que se cancela contra retención |
@@ -23,7 +25,7 @@
 
 | Caso | Dirección | Clave |
 |---|---|---|
-| [[Material 07/Caso 1 - Empresa UK Presta en Argentina\|Mat 07 · Caso 1]] | Neto → Bruto (empresa AR asume impuestos) | `Bruto = Neto / (1 − tasa efectiva)` |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 07/Caso 1 - Empresa UK Presta en Argentina\|Mat 07 · Caso 1]] | Neto → Bruto (empresa AR asume impuestos) | `Bruto = Neto / (1 − tasa efectiva)` |
 | [[Material 11/Caso I - Franquicia Detroit Brasil\|Mat 11 · Caso I]] | Neto cobrado → Bruto declarable (retención extranjera) | `Bruto = Neto / (1 − tasa retención)` |
 | [[../../04-Parciales-Anteriores/Recuperatorio 2do Cuatrim 2025/Resolucion\|Recuperatorio 2025]] | Neto en mano Gordon → Bruto base retención CDI + IVA sustituto | `Retención: 160k/0,90 = 177.777,78` / `IVA: 160k × 21/79 = 42.531,65` |
 
@@ -35,8 +37,8 @@
 
 | Caso | Fuente | Criterio determinante |
 |---|---|---|
-| [[Material 06/Caso 1 - Software Factory AR Paraguay\|Mat 06 · Caso 1]] | Argentina | Desarrollador trabaja desde AR (home office) |
-| [[Material 07/Caso 3 - Big Data Argentina Gobierno Frances\|Mat 07 · Caso 3]] | Extranjera | Personal viaja y trabaja físicamente en Francia |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 06/Caso 1 - Software Factory AR Paraguay\|Mat 06 · Caso 1]] | Argentina | Desarrollador trabaja desde AR (home office) |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 07/Caso 3 - Big Data Argentina Gobierno Frances\|Mat 07 · Caso 3]] | Extranjera | Personal viaja y trabaja físicamente en Francia |
 | [[Material 10/Caso I - Software Cadbury UK Argentina Uruguay\|Mat 10 · Caso I]] | Extranjera (desde UK) | Equipo trabaja físicamente en UK |
 | [[Material 11/Caso I - Franquicia Detroit Brasil\|Mat 11 · Caso I]] | Extranjera | Utilización económica en Brasil |
 | [[../../04-Parciales-Anteriores/Recuperatorio 2do Cuatrim 2025/Resolucion\|Recuperatorio 2025]] | A1: AR / A2: Extranjera | Filmado en AR → fuente AR. Filmado en Chile → fuente extranjera |
@@ -49,8 +51,8 @@
 
 | Caso | Inc. aplicable | Tasa efectiva | Clave |
 |---|---|---|---|
-| [[Material 06/Caso 3 - CEO Discografica Argentina\|Mat 06 · Caso 3]] | b) derechos de autor | 12,25% | Obra inscripta: 35% × 35% |
-| [[Material 07/Caso 1 - Empresa UK Presta en Argentina\|Mat 07 · Caso 1]] | h) servicios técnicos sin asesoramiento | 31,5% | Presunción 90% × 35% |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 06/Caso 3 - CEO Discografica Argentina\|Mat 06 · Caso 3]] | b) derechos de autor | 12,25% | Obra inscripta: 35% × 35% |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 07/Caso 1 - Empresa UK Presta en Argentina\|Mat 07 · Caso 1]] | h) servicios técnicos sin asesoramiento | 31,5% | Presunción 90% × 35% |
 | [[Material 10/Caso II - ARGSecurity Consultoria BMV Argentina\|Mat 10 · Caso II]] | h) empresa uruguaya | 31,5% | Renta de fuente AR → retención como agente |
 
 **Patrón:** identificar el inciso correcto del Art. 93 antes de calcular. El 35% pleno casi nunca aplica directamente.
@@ -61,9 +63,9 @@
 
 | Caso | Tipo de gasto | Regla |
 |---|---|---|
-| [[Material 06/Caso 4 - Filial Multinacional Electrodomesticos\|Mat 06 · Caso 4]] | Inventario comprado a vinculada | Deduce cuando se vende Y si el pago fue antes del vto de DDJJ |
-| [[Material 06/Caso 5 - Capital vs Prestamo Multinacional Austriaca\|Mat 06 · Caso 5]] | Intereses a vinculada | Art. 24 aplica → deducción al pago |
-| [[Material 06/Caso 5 - Capital vs Prestamo Multinacional Austriaca\|Mat 06 · Caso 5]] | Diferencia de cambio sobre capital | Art. 24 NO aplica → deducción al devengo |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 06/Caso 4 - Filial Multinacional Electrodomesticos\|Mat 06 · Caso 4]] | Inventario comprado a vinculada | Deduce cuando se vende Y si el pago fue antes del vto de DDJJ |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 06/Caso 5 - Capital vs Prestamo Multinacional Austriaca\|Mat 06 · Caso 5]] | Intereses a vinculada | Art. 24 aplica → deducción al pago |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 06/Caso 5 - Capital vs Prestamo Multinacional Austriaca\|Mat 06 · Caso 5]] | Diferencia de cambio sobre capital | Art. 24 NO aplica → deducción al devengo |
 
 **Patrón:** Art. 24 solo activa cuando la renta **es fuente AR para el acreedor** (intereses sí; capital no).
 
@@ -73,7 +75,7 @@
 
 | Caso | Cumple | Requisito crítico |
 |---|---|---|
-| [[Material 07/Caso 2 - Reorganizacion Libre de Impuestos\|Mat 07 · Caso 2]] | ❌ NO (60% < 80%) | Control ≥ 80% del capital por **2 años previos** en AMBAS entidades |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 07/Caso 2 - Reorganizacion Libre de Impuestos\|Mat 07 · Caso 2]] | ❌ NO (60% < 80%) | Control ≥ 80% del capital por **2 años previos** en AMBAS entidades |
 
 **Patrón:** el porcentaje (80%) y el plazo (2 años previos) son los dos filtros. Si falla uno, no aplica el régimen.
 
@@ -83,7 +85,7 @@
 
 | Caso | Situación | Regla |
 |---|---|---|
-| [[Material 06/Caso 2 - Fideicomiso Construccion al Costo\|Mat 06 · Caso 2]] | Mezcla residentes + no residentes | Residentes: como fiduciantes. No residentes: el fideicomiso. Opción unificada: 5 años mínimo |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 06/Caso 2 - Fideicomiso Construccion al Costo\|Mat 06 · Caso 2]] | Mezcla residentes + no residentes | Residentes: como fiduciantes. No residentes: el fideicomiso. Opción unificada: 5 años mínimo |
 
 ---
 
@@ -91,8 +93,8 @@
 
 | Caso | Concepto | Tratamiento |
 |---|---|---|
-| [[Material 06/Caso 5 - Capital vs Prestamo Multinacional Austriaca\|Mat 06 · Caso 5]] | Condonación de capital | Ingreso gravado (teoría del balance: negocio real) |
-| [[Material 06/Caso 5 - Capital vs Prestamo Multinacional Austriaca\|Mat 06 · Caso 5]] | Diferencia de cambio sobre capital | Deducible al devengar (Art. 24 no aplica al capital) |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 06/Caso 5 - Capital vs Prestamo Multinacional Austriaca\|Mat 06 · Caso 5]] | Condonación de capital | Ingreso gravado (teoría del balance: negocio real) |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 06/Caso 5 - Capital vs Prestamo Multinacional Austriaca\|Mat 06 · Caso 5]] | Diferencia de cambio sobre capital | Deducible al devengar (Art. 24 no aplica al capital) |
 
 ---
 
@@ -100,8 +102,8 @@
 
 | Caso | Requisitos verificados | Consecuencia |
 |---|---|---|
-| [[Material 07/Caso 3 - Big Data Argentina Gobierno Frances\|Mat 07 · Caso 3]] | Prestación en AR, cliente no residente, uso en el exterior | Tasa 0%, CF vinculado recuperable |
-| [[Material 09/Caso IV - IVA IIBB Venta Marca Plataforma Digital\|Mat 09 · Caso IV (b)]] | Prestado en exterior, uso parcial en AR (60%) | Solo el 40% es exportación; 60% gravado al 21% |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 07/Caso 3 - Big Data Argentina Gobierno Frances\|Mat 07 · Caso 3]] | Prestación en AR, cliente no residente, uso en el exterior | Tasa 0%, CF vinculado recuperable |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 09/Caso IV - IVA IIBB Venta Marca Plataforma Digital\|Mat 09 · Caso IV (b)]] | Prestado en exterior, uso parcial en AR (60%) | Solo el 40% es exportación; 60% gravado al 21% |
 | [[Material 10/Caso I - Software Cadbury UK Argentina Uruguay\|Mat 10 · Caso I]] | Prestación en AR, uso 80% AR / 20% UY | Porción AR: 21%; porción UY: tasa 0% |
 | [[Material 10/Caso III - DevArg CRM Empresa Peruana\|Mat 10 · Caso III]] | Cliente no residente, uso en Perú | Tasa 0%, CF del proveedor recuperable |
 | [[Material 11/Caso I - Franquicia Detroit Brasil\|Mat 11 · Caso I]] | Ídem + cesión temporal de marca | Tasa 0%, no cobra IVA al cliente brasilero |
@@ -125,7 +127,7 @@
 
 | Caso | Condición de la empresa AR | Consecuencia del IVA |
 |---|---|---|
-| [[Material 07/Caso 1 - Empresa UK Presta en Argentina\|Mat 07 · Caso 1]] | RI en IVA | Ingresa IVA como sustituto → CF al mes siguiente → **NEUTRO** |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 07/Caso 1 - Empresa UK Presta en Argentina\|Mat 07 · Caso 1]] | RI en IVA | Ingresa IVA como sustituto → CF al mes siguiente → **NEUTRO** |
 | [[Material 10/Caso II - ARGSecurity Consultoria BMV Argentina\|Mat 10 · Caso II]] | RI en IVA, contrata empresa UY | Sustituto → CF 17.850 > DF 17.355 → saldo a favor |
 | [[Material 10/Caso III - DevArg CRM Empresa Peruana\|Mat 10 · Caso III]] | RI, contrata empresa peruana | Sustituto por IVA AR (neutro) + IVA peruano irrecuperable (costo) |
 | [[Material 11/Caso II - Telefonia IP Exencion IVA\|Mat 11 · Caso II]] | Deja de ser RI (exención) | Obligación de sustituto desaparece → IVA del exterior **no es costo** |
@@ -146,9 +148,9 @@
 
 | Caso | Problema | Consecuencia |
 |---|---|---|
-| [[Material 07/Caso 4 - Shopping Center Empresa Francesa IVA\|Mat 07 · Caso 4]] | Descalce temporal CF/DF en inflación | CF en pesos se devalúa; estructurar para que nazcan al mismo tiempo |
-| [[Material 09/Caso V - IVA IIBB Automotriz Cuotas USD\|Mat 09 · Caso V]] | HI nace al entregar el bien; cuotas se cobran después | Pago inicial mínimo = IVA neto + IIBB al momento de la venta |
-| [[Material 09/Caso V - IVA IIBB Automotriz Cuotas USD\|Mat 09 · Caso V]] | Diferencias de cambio al cobrar cuotas en pesos a TC mayor | Gravadas con IVA (teoría unicidad) → comprobante adicional por cada cuota |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 07/Caso 4 - Shopping Center Empresa Francesa IVA\|Mat 07 · Caso 4]] | Descalce temporal CF/DF en inflación | CF en pesos se devalúa; estructurar para que nazcan al mismo tiempo |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 09/Caso V - IVA IIBB Automotriz Cuotas USD\|Mat 09 · Caso V]] | HI nace al entregar el bien; cuotas se cobran después | Pago inicial mínimo = IVA neto + IIBB al momento de la venta |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 09/Caso V - IVA IIBB Automotriz Cuotas USD\|Mat 09 · Caso V]] | Diferencias de cambio al cobrar cuotas en pesos a TC mayor | Gravadas con IVA (teoría unicidad) → comprobante adicional por cada cuota |
 
 ---
 
@@ -156,7 +158,7 @@
 
 | Caso | ¿Es empresa constructora? | Clave |
 |---|---|---|
-| [[Material 09/Caso III - IVA IIBB Planta Industrial Barracas\|Mat 09 · Caso III]] | ❌ NO | Construyó para uso propio, no con propósito de lucro por venta |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 09/Caso III - IVA IIBB Planta Industrial Barracas\|Mat 09 · Caso III]] | ❌ NO | Construyó para uso propio, no con propósito de lucro por venta |
 
 **Patrón:** el propósito al momento de construir define si hay HI. Construir para uso propio ≠ empresa constructora.
 
@@ -166,7 +168,7 @@
 
 | Caso | ¿Hay reintegro? | Clave |
 |---|---|---|
-| [[Material 09/Caso III - IVA IIBB Planta Industrial Barracas\|Mat 09 · Caso III]] | ❌ NO | CF computado en 1998; período de 10 años venció en 2008; venta en 2022 |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 09/Caso III - IVA IIBB Planta Industrial Barracas\|Mat 09 · Caso III]] | ❌ NO | CF computado en 1998; período de 10 años venció en 2008; venta en 2022 |
 
 **Patrón:** verificar si los 10 años desde la finalización de la obra ya pasaron. Si sí → no hay reintegro.
 
@@ -176,7 +178,7 @@
 
 | Caso | Tratamiento | Certeza |
 |---|---|---|
-| [[Material 09/Caso IV - IVA IIBB Venta Marca Plataforma Digital\|Mat 09 · Caso IV (a)]] | NO gravada | Sin ambigüedad — ni Ley ni DR incluyen la transferencia definitiva de derechos |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 09/Caso IV - IVA IIBB Venta Marca Plataforma Digital\|Mat 09 · Caso IV (a)]] | NO gravada | Sin ambigüedad — ni Ley ni DR incluyen la transferencia definitiva de derechos |
 
 ---
 
@@ -184,8 +186,8 @@
 
 | Caso | Alcanzada | Clave |
 |---|---|---|
-| [[Material 09/Caso I - IIBB Consultora Sistemas\|Mat 09 · Caso I]] | ✅ SÍ (sociedad) | Exención de profesiones liberales solo aplica a profesional individual, no a empresa |
-| [[Material 09/Caso IV - IVA IIBB Venta Marca Plataforma Digital\|Mat 09 · Caso IV (a)]] | ❌ NO (venta de marca) | Hecho aislado, no corresponde al objeto habitual; marca nunca afectada al ciclo comercial |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 09/Caso I - IIBB Consultora Sistemas\|Mat 09 · Caso I]] | ✅ SÍ (sociedad) | Exención de profesiones liberales solo aplica a profesional individual, no a empresa |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 09/Caso IV - IVA IIBB Venta Marca Plataforma Digital\|Mat 09 · Caso IV (a)]] | ❌ NO (venta de marca) | Hecho aislado, no corresponde al objeto habitual; marca nunca afectada al ciclo comercial |
 
 **Patrón:** sociedad → siempre alcanzada. La exención de profesiones liberales requiere ejercicio individual y sin estructura empresarial.
 
@@ -195,7 +197,7 @@
 
 | Caso | Régimen | Clave |
 |---|---|---|
-| [[Material 09/Caso I - IIBB Consultora Sistemas\|Mat 09 · Caso I]] | CM — Régimen General (50/50) | Gastos E ingresos en más de una jurisdicción → CM. Sociedad → no aplica régimen especial |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 09/Caso I - IIBB Consultora Sistemas\|Mat 09 · Caso I]] | CM — Régimen General (50/50) | Gastos E ingresos en más de una jurisdicción → CM. Sociedad → no aplica régimen especial |
 
 **Patrón:** el CM requiere gastos **Y** ingresos en más de una jurisdicción. No alcanza con tener clientes en otras provincias. Las sociedades van siempre al Régimen General (50% gastos / 50% ingresos).
 
@@ -205,8 +207,8 @@
 
 | Caso | Categoría al vender | IIBB |
 |---|---|---|
-| [[Material 09/Caso III - IVA IIBB Planta Industrial Barracas\|Mat 09 · Caso III]] | "Otros Bienes" (desafectada en 2020) | ✅ SÍ gravada |
-| [[Material 09/Caso II - IIBB Grupo Economico Recupero Gastos\|Mat 09 · Caso II]] | Bien de cambio (para el vendedor) | ✅ SÍ gravada |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 09/Caso III - IVA IIBB Planta Industrial Barracas\|Mat 09 · Caso III]] | "Otros Bienes" (desafectada en 2020) | ✅ SÍ gravada |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 09/Caso II - IIBB Grupo Economico Recupero Gastos\|Mat 09 · Caso II]] | Bien de cambio (para el vendedor) | ✅ SÍ gravada |
 
 **Patrón:** si el bien se desafecta de "Bienes de Uso" antes de la venta → paga IIBB. Recomendación: no cambiar la categoría aunque el bien no se use.
 
@@ -216,7 +218,7 @@
 
 | Caso | Tratamiento | Clave |
 |---|---|---|
-| [[Material 09/Caso II - IIBB Grupo Economico Recupero Gastos\|Mat 09 · Caso II]] | NO gravado | Pago por cuenta y orden de tercero → no es ingreso propio |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 09/Caso II - IIBB Grupo Economico Recupero Gastos\|Mat 09 · Caso II]] | NO gravado | Pago por cuenta y orden de tercero → no es ingreso propio |
 
 ---
 
@@ -224,7 +226,7 @@
 
 | Caso | Aplica exención | Requisito |
 |---|---|---|
-| [[Material 09/Caso IV - IVA IIBB Venta Marca Plataforma Digital\|Mat 09 · Caso IV (b)]] | Parcial (40% exportación) | Solo la porción efectivizada en el exterior está exenta |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 09/Caso IV - IVA IIBB Venta Marca Plataforma Digital\|Mat 09 · Caso IV (b)]] | Parcial (40% exportación) | Solo la porción efectivizada en el exterior está exenta |
 | [[Material 10/Caso I - Software Cadbury UK Argentina Uruguay\|Mat 10 · Caso I]] | Parcial (20% UY exento, 80% AR gravado) | La porción utilizada en AR no es exportación |
 | [[Material 10/Caso III - DevArg CRM Empresa Peruana\|Mat 10 · Caso III]] | ✅ SÍ (100%) | Servicio que se efectiviza íntegramente en el exterior |
 | [[Material 11/Caso I - Franquicia Detroit Brasil\|Mat 11 · Caso I]] | ✅ SÍ (100%) | Servicio que se efectiviza íntegramente en el exterior |
@@ -273,7 +275,7 @@
 | Caso | Egreso incluido | Clave |
 |---|---|---|
 | [[../../04-Parciales-Anteriores/Diciembre 2025/Resolucion\|Parcial Dic 2025]] | IVA a ingresar a AFIP + IVA sustituto | Son egresos bancarios reales aunque sean neutros en el resultado → generan IDyCB |
-| [[Material 09/Caso V - IVA IIBB Automotriz Cuotas USD\|Mat 09 · Caso V]] | IVA neto a pagar | Egreso real → pago inicial mínimo para cubrirlo |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 09/Caso V - IVA IIBB Automotriz Cuotas USD\|Mat 09 · Caso V]] | IVA neto a pagar | Egreso real → pago inicial mínimo para cubrirlo |
 
 **Patrón:** IDyCB se calcula sobre los movimientos bancarios reales, incluyendo pagos a AFIP por IVA. Aunque el IVA sea neutro en el P&L, el movimiento de caja existe.
 
@@ -293,7 +295,7 @@
 
 | Caso | ¿Costo P&L? | ¿Necesidad financiera? | Clave |
 |---|---|---|---|
-| [[Material 07/Caso 1 - Empresa UK Presta en Argentina\|Mat 07 · Caso 1]] | ❌ NO (CF recuperable) | ✅ SÍ (egreso hasta recupero) | El sustituto es transitorio; el CF vuelve el mes siguiente |
+| [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 07/Caso 1 - Empresa UK Presta en Argentina\|Mat 07 · Caso 1]] | ❌ NO (CF recuperable) | ✅ SÍ (egreso hasta recupero) | El sustituto es transitorio; el CF vuelve el mes siguiente |
 | [[../../04-Parciales-Anteriores/Recuperatorio 2do Cuatrim 2025/Resolucion\|Recuperatorio 2025]] | ❌ NO (CF recuperable) | ✅ SÍ (42.531,65) | IVA Gordon: no impacta resultado pero sí el dinero necesario |
 
 **Patrón:** al calcular "cuánto dinero necesito", incluir el IVA sustituto aunque sea recuperable. Al calcular resultado (P&L), excluirlo.

@@ -14,12 +14,79 @@ La materia tiene una lógica específica: se evalúa **razonamiento sobre normas
 
 ### Regla 1 — Estructura de toda respuesta sobre un caso
 
-Cuando respondas un ejercicio o caso, separá siempre en dos partes:
+Cuando respondas un ejercicio o caso, separá siempre en tres partes:
 
 1. **Razonamiento**: identificación del problema, encuadre normativo y por qué aplica
 2. **Técnica**: cálculos numéricos, retenciones, gross-up, etc.
+3. **Respuesta final**: responder directamente a la pregunta del enunciado
 
 Nunca saltes directo a la técnica sin haber demostrado que entendiste la problemática. El profesor evalúa el razonamiento antes que los números.
+
+==**Importantísimo**: después de la resolución técnica, SIEMPRE cerrar con una **respuesta final** que conteste directamente la pregunta de la consigna.== El profesor no quiere derivar él la conclusión de tus números — quiere que vos se la digas. Si el enunciado pregunta "¿conviene la Opción 2?", la respuesta final debe decir explícitamente "NO conviene porque…" (no alcanza con dejar dos tablas comparativas y esperar que el lector ate cabos).
+
+Estructura recomendada de la respuesta final:
+- **Conclusión directa primero** (Sí / No / Acepta / Rechaza / Conviene / No conviene / Gravado / Exento).
+- **Cifra clave** que respalda la conclusión (resultado, cashflow, UFMA, etc.).
+- **Razón corta en 1-2 frases** que explique el porqué (qué hizo la diferencia).
+- Si la consigna tiene varias preguntas (i, ii, iii), respondé cada una explícitamente en este bloque.
+
+#### Estructura de la técnica — formato cátedra (Material 13 en adelante)
+
+==**La buena práctica recomendada por la cátedra (verificada en Material 13) exige separar la técnica en TRES bloques en este orden**:==
+
+**Bloque 1 — Cálculo del IDyCB (standalone)**
+
+Calculado primero porque alimenta a los otros dos. Estructura:
+
+| | Importe |
+|---|---:|
+| **Créditos bancarios** (ingresa) — cobros con IVA, etc. | ... |
+| 0,6% sobre créditos | ... |
+| **Débitos bancarios** (egresa) — pagos IIBB, costos con IVA, sueldos, IVA débito a AFIP, etc. | ... |
+| 0,6% sobre débitos | ... |
+| **IDyCB total** (1,2%) | ... |
+| → IDyCB costo deducible en EERR (67%) | ... |
+| → Crédito IIGG por IDyCB (33%) | ... |
+
+**Bloque 2 — Estado de Resultados (EERR)**
+
+Visión P&L impositiva. Incluye 67% del IDyCB como costo. Estructura típica:
+
+| Concepto | Importe |
+|---|---:|
+| Ingresos | ... |
+| (−) IIBB | ... |
+| (−) Costos directos (con retenciones absorbidas si corresponde) | ... |
+| (−) Sueldos y cargas | ... |
+| (−) IDyCB (67% costo) | ... |
+| **Resultado antes IIGG** | ... |
+| (−) IIGG (30% × resultado positivo) | ... |
+| ==**Resultado final**== | ... |
+
+**Bloque 3 — Cash Flow**
+
+Visión de caja. Incluye el IDyCB total como outflow y devuelve el 33% como crédito contra IIGG. Estructura típica:
+
+| Concepto | Importe |
+|---|---:|
+| Ingresos cobrados (con IVA débito) | ... |
+| (−) IIBB pagado | ... |
+| (−) Pagos a proveedores (con IVA crédito / IVA-RS) | ... |
+| (−) Sueldos | ... |
+| (−) IVA saldo a pagar (débito − crédito) | ... |
+| (−) IDyCB total | ... |
+| **Cashflow antes IIGG** | ... |
+| (−) IIGG | ... |
+| (+) Crédito IIGG por IDyCB 33% | ... |
+| ==**Cashflow del período**== | ... |
+
+**Por qué esta separación importa**:
+- **EERR responde "¿gano o pierdo?"** (mide rentabilidad para Ganancias).
+- **Cashflow responde "¿cuánta plata tengo?"** (mide liquidez y necesidad financiera).
+- **Las dos visiones pueden divergir mucho** (ej: IVA-RS es neutro en EERR pero outflow inmediato en cashflow — ver Caso II Material 13: EERR positivo de ARS 35,7M pero cashflow de solo ARS 12,6M por el IVA-RS upfront).
+- **IDyCB se trata SIEMPRE como "Resto"** (regla del vault): 67% costo + 33% crédito. Esto es independiente de la categoría real de la empresa.
+
+**Casos análogos validados con este formato**: Material 13 — todos los casos (Gravix, Tesoria, Polola).
 
 ### Regla 2 — Grilla del Hecho Imponible
 
@@ -65,15 +132,63 @@ Cuando dudes entre los modos, preguntá al alumno cuál prefiere.
 
 ---
 
-## Heurísticas de búsqueda en la vault
+## Flujo de trabajo para resolver ejercicios — OBLIGATORIO
 
-Cuando llegue una pregunta, buscá en este orden:
+Antes de escribir cualquier resolución (Caso de Material, simulacro o pregunta puntual sobre un ejercicio), seguí estos pasos en orden. **No te saltees pasos por intuición o memoria** — la regla acá es "abrir lo que está disponible, no asumir".
 
-1. **`00-Config/Cheat-Sheet-Parcial.md`** — para conceptos clave, tasas, fórmulas; útil para responder rápido lo básico.
-2. **`02-Conceptos-Clave/`** — para identificar el concepto transversal (ej: gross-up, tax credit, devengado, teoría unicidad).
-3. **`01-Teoria/[Impuesto]/`** — para la regla específica del impuesto en cuestión.
-4. **`03-Ejercicios/Resueltos-Catedra/`** — para casos análogos resueltos y validados en clase.
-5. **`03-Ejercicios/Consignas/`** — para conocer enunciados pendientes de resolución.
+### Paso 0 — Leer la consigna completa
+
+PDF o `.md` en `03-Ejercicios/Consignas/`. Excepcionalmente, si vos me señalás un xlsx asociado (resolución cátedra parcial, hints), convertirlo con markitdown y leerlo también.
+
+### Paso 1 — Abrir `03-Ejercicios/Resueltos-Catedra/_Indice-Por-Concepto.md`
+
+==**Este índice es el punto de entrada obligatorio.**== Está organizado por concepto (Tax Credit, Gross-up, IVA Exportación, IIBB Sociedad, IDyCB, etc.) y para cada concepto lista los casos análogos validados con su patrón clave.
+
+- Identificar qué conceptos del índice toca el caso nuevo.
+- Anotar los **casos análogos** que el índice apunta para cada concepto.
+- Si el caso tiene un ángulo que **no aparece** en el índice → marcarlo como **novedad** y advertir explícitamente en la respuesta.
+
+### Paso 2 — Leer los casos análogos que apuntó el índice
+
+No "de memoria" — abrir los archivos. Buscar:
+- El razonamiento concreto usado en el caso análogo.
+- Los números y fórmulas validadas.
+- Las advertencias o matices que el resolutor catedrático señaló.
+
+### Paso 3 — Complementar con teoría solo si hay novedad o duda
+
+Si los casos análogos cubren todo, no hace falta abrir teoría. Si hay novedad, recién entonces ir a:
+
+1. **`00-Config/Cheat-Sheet-Parcial.md`** — para conceptos clave, tasas, fórmulas.
+2. **`02-Conceptos-Clave/`** — para el concepto transversal (gross-up, tax credit, etc.).
+3. **`01-Teoria/[Impuesto]/`** — para la regla específica.
+4. **`04-Parciales-Anteriores/`** — para ver cómo se evaluó algo similar.
+
+### Paso 4 — Escribir la resolución
+
+- **Razonamiento separado de la técnica** (Regla 1).
+- **Citar precedentes** del índice de forma explícita: *"como en Mat 11 · Caso I, la utilización en el exterior define exportación…"*. No basta citar CLAUDE.md o "el vault" en abstracto.
+- **Aplicar Regla 4** honestamente: si encontraste teoría pero no caso análogo → decirlo. Si no encontraste ni teoría ni caso → decirlo.
+- **Marcar zonas grises** explícitamente.
+
+### Anti-patrones que ya cometí — no repetir
+
+- **No abrir `_Indice-Por-Concepto.md`** y resolver "de memoria" usando solo CLAUDE.md → produce respuestas sin precedente trazable y omite matices ya documentados.
+- **Asumir por el nombre del archivo** qué contiene sin abrirlo.
+- **Citar el xlsx cátedra** como única fuente cuando el índice apunta casos validados con razonamiento completo.
+- **Mezclar razonamiento y técnica** en el mismo paso.
+
+---
+
+## Heurísticas de búsqueda — para consultas que NO son resolución de ejercicio
+
+Para preguntas teóricas, "¿cómo funciona X?", o búsquedas exploratorias:
+
+1. **`_Indice-Por-Concepto.md`** — si el concepto está mapeado, ahí están los casos que lo ilustran.
+2. **`00-Config/Cheat-Sheet-Parcial.md`** — para reglas base, tasas, fórmulas.
+3. **`02-Conceptos-Clave/`** — para concepto transversal.
+4. **`01-Teoria/[Impuesto]/`** — para la regla específica.
+5. **`03-Ejercicios/Resueltos-Catedra/`** — para casos análogos.
 6. **`04-Parciales-Anteriores/`** — para ver cómo se evaluó algo similar.
 
 ---
@@ -125,7 +240,8 @@ Cuando llegue una pregunta, buscá en este orden:
   - **Microempresas**: 30% contra Contribuciones Patronales (límite 15% de las patronales), **Y también** 100% contra Ganancias.
   - **Pequeñas MiPyME**: 100% contra Ganancias (0% costo).
   - **Manufacturera mediana tramo I**: 60% contra Ganancias (excedente no computado: 33% se traslada a ejercicios futuros hasta agotarse).
-  - **Resto**: 33% contra Ganancias (⅔ costo + ⅓ crédito).
+  - **Resto**: 33% crédito contra Ganancias, 67% costo.
+- ==**REGLA PARA CASOS PRÁCTICOS: tratar SIEMPRE a todas las empresas como Resto (33% crédito / 67% costo), sin importar su categoría real. No determinar si es MiPyME.**==
 
 ---
 
@@ -159,13 +275,18 @@ Cuando un tema entre en una de estas zonas, advertí explícitamente que hay amb
 ```
 CLAUDE.md              ← este archivo (cargado automáticamente)
 00-Config/             ← INDEX, Cheat-Sheet
-01-Teoria/             ← Ganancias, IVA, IIBB, IDyCB, Sistema Tributario
+01-Teoria/             ← Ganancias, IVA, IIBB, IDyCB
+  └── _Archivo/        ← teoría no usada en ejercicios (conservada por historial)
 02-Conceptos-Clave/    ← Hecho Imponible, Tax Credit, Gross-up, Fallos
+  └── _Archivo/        ← conceptos fundacionales no usados en ejercicios
 03-Ejercicios/
-  ├── Consignas/        ← Enunciados (lectura)
-  ├── Resueltos-Catedra/← Validados, uno por caso (referencia confiable)
-  │     └── Material XX/← Carpeta por material
-  └── Resueltos-Claude/ ← Generados por vos (a chequear)
+  ├── Consignas/                     ← Enunciados (lectura) — Mat 10 en adelante
+  ├── Resueltos-Catedra/             ← Validados (Mat 10+); incluye _Indice-Por-Concepto.md
+  │     └── Material XX/             ← Carpeta por material
+  ├── Resueltos-Claude/              ← Generados por vos (a chequear)
+  └── _Archivo-Menor-Relevancia/     ← Materiales 06, 07, 09 (parcial actual prioriza Mat 10+)
+        ├── Consignas/
+        └── Resueltos-Catedra/
 04-Parciales-Anteriores/
 ```
 

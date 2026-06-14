@@ -151,30 +151,12 @@ Base = Ventas - IVA - reintegros de gastos - reintegros de capital (préstamos) 
 12. ==Asumir que el bien de uso siempre está fuera de IIBB==. Si lo desafectaste antes de venderlo, no.
 13. ==Calcular rentabilidad sobre el ingreso en vez de sobre los costos==. El denominador es costos totales.
 
----
-
-## Pirámide jurídica (cuando hay conflicto entre normas)
-
-```
-1. Constitución Nacional
-2. Tratados internacionales (CDI - convenios doble imposición)
-3. Leyes especiales (ej. Régimen Incentivo RIGI)
-4. Leyes generales (LIG, Ley IVA, etc.)
-5. Decretos Reglamentarios
-6. Resoluciones AFIP
-```
-
-Si el DR contradice a la Ley → prevalece la Ley. Si la Resolución contradice al DR → prevalece el DR.
-
----
-
 ## Conceptos a tener en la lengua
 
 - **Tax credit**: requiere impuesto análogo + abonado + sobre renta de fuente extranjera.
 - **Gross-up**: calcular el bruto del cual descontando la retención queda el neto pactado.
 - **Devengado vs percibido**: PJ devengado, PH 2da/4ta percibido, PH 1ra/3ra devengado.
 - **Renta mundial vs territorialidad**: residente AR tributa por renta mundial; no residente solo por fuente AR.
-- **Manifestaciones de riqueza**: renta, patrimonio, consumo.
 
 ---
 

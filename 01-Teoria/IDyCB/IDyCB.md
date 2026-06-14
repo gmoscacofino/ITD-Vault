@@ -13,7 +13,8 @@
   - **Microempresas**: 30% contra Contribuciones Patronales (límite 15%), Y también 100% contra Ganancias.
   - **Pequeñas MiPyME**: 100% contra Ganancias (0% costo).
   - **Manufacturera mediana tramo I**: 60% contra Ganancias (excedente traslada con 33% a futuros).
-  - **Resto**: 33% contra Ganancias (2/3 costo, 1/3 crédito).
+  - **Resto**: 33% crédito contra Ganancias, 67% costo.
+- ==**REGLA PARA CASOS PRÁCTICOS: tratar SIEMPRE todas las empresas como Resto (33% crédito / 67% costo). No determinar la categoría MiPyME real.**==
 
 ---
 
@@ -92,8 +93,8 @@ Los cheques pueden tener tasa diferente y mecánicas particulares.
 
 #### Resto de empresas (medianas, grandes)
 
-- **33% (un tercio) contra Ganancias** como crédito.
-- **67% (dos tercios) es costo**.
+- **33% contra Ganancias** como crédito.
+- **67% es costo**.
 
 ### Implicancia
 ==Para empresas grandes, la mayor parte del IDyCB es **costo definitivo**==. No se recupera.
@@ -192,7 +193,7 @@ Pero el IDyCB:
 | Microempresa | 30% patronales + 100% Ganancias | 0% costo |
 | Pequeña MiPyME | 100% contra Ganancias | 0% costo |
 | Manufacturera mediana tramo I | 60% contra Ganancias | 40% costo (excedente traslada 33%) |
-| Mediana / Grande | 33% contra Ganancias | 67% costo |
+| Mediana / Grande (**Resto** — default prácticos) | 33% crédito contra Ganancias | 67% costo |
 
 ---
 
@@ -250,8 +251,8 @@ Se paga sobre movimientos, no sobre ganancia. Una empresa con pérdida igual pag
 
 | Caso | Tratamiento | Clave |
 |---|---|---|
-| [[../../03-Ejercicios/Resueltos-Catedra/Material 10/Caso I - Software Cadbury UK Argentina Uruguay\|Mat 10 · Caso I]] | Débitos (sueldos) + créditos (cobro) | Régimen Resto: 2/3 pérdida + 1/3 crédito |
+| [[../../03-Ejercicios/Resueltos-Catedra/Material 10/Caso I - Software Cadbury UK Argentina Uruguay\|Mat 10 · Caso I]] | Débitos (sueldos) + créditos (cobro) | Régimen Resto: 67% costo + 33% crédito |
 | [[../../03-Ejercicios/Resueltos-Catedra/Material 10/Caso II - ARGSecurity Consultoria BMV Argentina\|Mat 10 · Caso II]] | Por opción varía (sueldos vs proveedor exterior) | Incluir todos los movimientos bancarios reales |
-| [[../../03-Ejercicios/Resueltos-Catedra/Material 11/Caso I - Franquicia Detroit Brasil\|Mat 11 · Caso I]] | Crédito sobre cobro; 2/3 pérdida + 1/3 crédito | Régimen Resto confirmado |
+| [[../../03-Ejercicios/Resueltos-Catedra/Material 11/Caso I - Franquicia Detroit Brasil\|Mat 11 · Caso I]] | Crédito sobre cobro; 67% costo + 33% crédito | Régimen Resto confirmado |
 | [[../../04-Parciales-Anteriores/Diciembre 2025/Resolucion\|Parcial Dic 2025]] | Ingresos + egresos (incl. IVA a ingresar + IVA sustituto) | Los pagos de IVA a AFIP son egresos bancarios reales → generan IDyCB |
 | [[../../04-Parciales-Anteriores/Recuperatorio 2do Cuatrim 2025/Resolucion\|Recuperatorio 2025]] | Ingresos (cobro neto 378k); egresos incluyen IVA Gordon recuperable | IVA recuperable = egreso real = base IDyCB aunque no sea costo P&L |
