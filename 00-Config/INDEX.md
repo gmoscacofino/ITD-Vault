@@ -242,7 +242,7 @@ Usar el comando `/resolver Material X Caso N`. Claude verifica si ya existe una 
 
 | Parcial | Status | Conceptos evaluados |
 |---|---|---|
-| [[../../04-Parciales-Anteriores/Diciembre 2025/Resolucion\|Parcial Diciembre 2025]] | ✅ chequeado | Precio todo incluido (gross-down), exportación parcial, tax credit vs costo, IDyCB sobre egresos AFIP |
+| [[../../04-Parciales-Anteriores/Parcial 2do Cuatrim 2025/Resolucion\|Parcial Diciembre 2025]] | ✅ chequeado | Precio todo incluido (gross-down), exportación parcial, tax credit vs costo, IDyCB sobre egresos AFIP |
 | [[../../04-Parciales-Anteriores/Recuperatorio 2do Cuatrim 2025/Resolucion\|Recuperatorio 2do Cuatrim 2025]] | ✅ chequeado | Distribución de uso, gross-up Gordon, IVA sustituto ≠ costo, rentabilidad mínima sobre costos |
 
 ---

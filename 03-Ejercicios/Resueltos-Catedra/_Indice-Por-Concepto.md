@@ -14,7 +14,7 @@
 | [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 07/Caso 3 - Big Data Argentina Gobierno Frances\|Mat 07 · Caso 3]] | ✅ SÍ | Personal en Francia → fuente extranjera → retención es tax credit |
 | [[Material 10/Caso III - DevArg CRM Empresa Peruana\|Mat 10 · Caso III]] | ✅ SÍ (parcial) | Solo se puede usar si hay Ganancias a pagar; con pérdida se pierde |
 | [[Material 11/Caso I - Franquicia Detroit Brasil\|Mat 11 · Caso I]] | ✅ SÍ | Fuente extranjera + gross-up previo + límite alícuota AR (30%) |
-| [[../../04-Parciales-Anteriores/Diciembre 2025/Resolucion\|Parcial Dic 2025]] | A1 ❌ / A2-A3 ✅ | A1 prestado en AR = fuente AR = costo. A2/A3 en BR = fuente extranjera = tax credit que se cancela contra retención |
+| [[../../04-Parciales-Anteriores/Parcial 2do Cuatrim 2025/Resolucion\|Parcial Dic 2025]] | A1 ❌ / A2-A3 ✅ | A1 prestado en AR = fuente AR = costo. A2/A3 en BR = fuente extranjera = tax credit que se cancela contra retención |
 | [[../../04-Parciales-Anteriores/Recuperatorio 2do Cuatrim 2025/Resolucion\|Recuperatorio 2025]] | A1 ❌ / A2 ✅ | Filmado en AR = fuente AR = retenciones CDI son costo. Filmado en Chile = fuente extranjera = tax credit |
 
 **Patrón:** el tax credit depende de la **fuente** del ingreso. Y solo sirve si hay impuesto argentino contra el cual imputarlo. Cuando tax credit = costo retención exterior, el efecto neto en caja es neutro (no hay doble imposición).
@@ -264,7 +264,7 @@
 
 | Caso | Situación | Cálculo |
 |---|---|---|
-| [[../../04-Parciales-Anteriores/Diciembre 2025/Resolucion\|Parcial Dic 2025]] | Precio pactado incluye IVA → hay que descontar | Neto = precio / 1,21; IVA incluido = precio − neto |
+| [[../../04-Parciales-Anteriores/Parcial 2do Cuatrim 2025/Resolucion\|Parcial Dic 2025]] | Precio pactado incluye IVA → hay que descontar | Neto = precio / 1,21; IVA incluido = precio − neto |
 
 **Patrón:** cuando el precio es "por todo concepto" o "impuestos incluidos", el ingreso neto gravado es menor que el precio. No hacer el gross-down sobreestima el ingreso en un 21%.
 
@@ -274,7 +274,7 @@
 
 | Caso | Egreso incluido | Clave |
 |---|---|---|
-| [[../../04-Parciales-Anteriores/Diciembre 2025/Resolucion\|Parcial Dic 2025]] | IVA a ingresar a AFIP + IVA sustituto | Son egresos bancarios reales aunque sean neutros en el resultado → generan IDyCB |
+| [[../../04-Parciales-Anteriores/Parcial 2do Cuatrim 2025/Resolucion\|Parcial Dic 2025]] | IVA a ingresar a AFIP + IVA sustituto | Son egresos bancarios reales aunque sean neutros en el resultado → generan IDyCB |
 | [[_Archivo-Menor-Relevancia/Resueltos-Catedra/Material 09/Caso V - IVA IIBB Automotriz Cuotas USD\|Mat 09 · Caso V]] | IVA neto a pagar | Egreso real → pago inicial mínimo para cubrirlo |
 
 **Patrón:** IDyCB se calcula sobre los movimientos bancarios reales, incluyendo pagos a AFIP por IVA. Aunque el IVA sea neutro en el P&L, el movimiento de caja existe.

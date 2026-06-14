@@ -1,229 +1,181 @@
 # Recuperatorio 2do Cuatrimestre 2025 — Resolución
 
-> Status: ✅ Bien resuelto y chequeado por la cátedra
-> Ver consigna completa en [[Consigna]]
+> Fuente: xlsx cátedra (hoja "R2C2025" — marcada **BIEN RESUELTO**).
+> Status: ✅ Validado en cátedra.
+> Conceptos: [[Tax Credit]], [[Ganancias - Fuente]], [[Gross-up]], [[IVA - Exportaciones]], [[IVA - Importacion de Servicios]], [[IIBB - Exenciones y No Alcanzados]], [[IDyCB]]
 
 ---
 
-## Conceptos involucrados
+## Razonamiento
 
-- [[IVA - Exportaciones]] — producción de contenido para exhibición 100% en exterior → tasa 0%
-- [[IIBB - Exenciones y No Alcanzados]] — exportación de servicios: exenta (efectivizada en exterior)
-- [[Tax Credit]] — retenciones CDI: fuente AR (A1) → costo; fuente extranjera (A2) → tax credit
-- [[Ganancias - Beneficiarios del Exterior]] — Gordon Ramsay: CDI Argentina-UK 10%; gross-up porque Tubo Quita absorbe el impuesto
-- [[IVA - Importacion de Servicios]] — A1: responsable sustituto por servicio de Gordon (prestado en AR); CF recuperable
-- [[IDyCB]] — 0,6% ingreso + 0,6% egreso; régimen Resto: 2/3 costo + 1/3 crédito Ganancias
+### Encuadre — qué define cada alternativa
 
----
+Las dos alternativas comparten el mismo **ingreso contractual con BHO Entertainment** (USD 420.000, facturado a las filiales chilena, brasilera y mexicana en partes iguales — los 3 países retienen 10% por CDI). El ingreso califica como **exportación de servicios** en ambas opciones (cliente del exterior + utilización fuera de AR — el contenido se exhibe en Chile, Brasil y México).
 
-## Encuadre previo
+Lo que cambia entre A1 y A2 es **dónde se ejecuta la producción**. Eso impacta dos planos:
 
-### Distribución del uso (proporción de ventas)
-
-| País | Facturación | % |
+| | A1 — Filmar en **AR** | A2 — Filmar en **CHI** |
 |---|---|---|
-| Chile | USD 1.000.000 | **10%** |
-| Brasil | USD 4.000.000 | **40%** |
-| México | USD 5.000.000 | **50%** |
-| **Total** | **USD 10.000.000** | **100%** |
+| **Fuente Ganancias de Tubo Quita** | Argentina (actividad en AR) | Extranjera (actividad en Chile) |
+| **Tax credit por retenciones CDI (Chile + Brasil + México)** | ❌ NO (fuente AR → las retenciones CDI son costo) | ✅ SÍ (fuente extranjera → tax credit cancela las retenciones) |
+| **IVA-RS sobre Gordon (importación de servicios)** | ✅ SÍ (servicio usado en AR) | ❌ NO (servicio usado en Chile) |
+| **Retención IIGG sobre Gordon (CDI Argentina-UK, 10%)** | ✅ SÍ (Gordon trabaja en AR → fuente AR del beneficiario → retiene) | ❌ NO (Gordon trabaja en Chile → no fuente AR del beneficiario) |
+| **IVA crédito sobre proveedores y alojamiento AR** | ✅ SÍ (USD 8.400 alojamiento + 3.360 prov.) | — |
+| **IIBB** | Exento (ingreso es exportación) | Exento |
 
-→ 100% de uso en el exterior → **exportación total de servicios**.
+==**La clave del ejercicio**: la fuente Ganancias funciona en dos planos en este caso:==
+- **A1 (filmar en AR)**: la **productora** tiene fuente AR (no puede tax credit por las retenciones CDI), Y **Gordon** tiene fuente AR (debe retenérsele IIGG + IVA-RS).
+- **A2 (filmar en CHI)**: la **productora** tiene fuente extranjera (sí tax credit), Y **Gordon** trabaja en Chile (no es beneficiario del exterior con fuente AR → no se le retiene).
 
-### IVA sobre ingresos
+### Gross-up sobre Gordon (solo A1)
 
-- Servicio utilizado 100% en Chile, Brasil, México → **IVA tasa 0%**
-- No hay gross-down: el precio USD 420.000 es íntegramente ingreso neto (sin IVA argentino)
+Gordon cobra **USD 160.000 limpios en mano** "por todo concepto" (la consigna dice que cualquier impuesto AR que sufra queda a cargo de Tubo Quita). La productora absorbe:
 
-### IIBB
+- **Retención IIGG por CDI Argentina-UK (10%)**: gross-up → **Bruto = 160.000 / 0,90 = USD 177.777,78**, **Retención = USD 17.777,78** pagada a AFIP.
+- **IVA-RS** (Gordon presta servicio usado en AR → responsable sustituto): la cátedra usa **gross-up algebraico**: 160.000 / (1 − 0,21) = 202.531,65 → **IVA = USD 42.531,65** para el cálculo de "plata necesaria" (pregunta 2).
 
-- Exportación de servicios efectivizada en el exterior → **exenta** en ambas opciones (IIBB = 0)
-
-### Retenciones CDI sobre el ingreso de Tubo Quita
-
-| | A1 (en Argentina) | A2 (en Chile) |
-|---|---|---|
-| Lugar de prestación | Argentina | Chile |
-| Fuente | **Argentina** | **Extranjera** |
-| Retenciones Chile/Brasil/México (10% c/u × 140.000 c/u) | **Costo** | **Tax credit** |
-| Total retenciones | USD 42.000 | USD 42.000 |
-
-Cobro efectivo de BHO: 420.000 − 42.000 = **USD 378.000**
+> **Nota sobre el IVA-RS — inconsistencia en el xlsx cátedra**:
+> - Para el cálculo de "**plata necesaria para contratar Gordon**" (Q2) el xlsx usa **gross-up: USD 42.531,65** (= 160.000 × 21/79).
+> - Para el cálculo de **IDyCB sobre costos** el xlsx usa **IVA simple: USD 33.600** (= 160.000 × 21%).
+>
+> Mantenemos ambos números tal cual los muestra el xlsx (marcado BIEN RESUELTO). La diferencia conceptual: el gross-up refleja el costo contractual total (Gordon libre de impuestos), el IVA simple refleja la base imponible declarada al RS.
 
 ---
 
-## Referencia A — Ingreso
+## Técnica
 
-En ambas opciones: **USD 420.000** (tasa 0% IVA → sin gross-down).
+### Bloque 1 — IDyCB (standalone)
 
----
+Criterio cátedra de este parcial: **70% costo + 30% crédito**.
 
-## Referencia B — Costos
+**IDyCB sobre ingresos** — base: cobro efectivo del cliente del exterior (ingreso − retenciones CDI 10%):
 
-### Gordon Ramsay en Argentina (A1 únicamente)
+| | A1 ARG | A2 CHI |
+|---|---:|---:|
+| Ingreso bruto facturado | 420.000 | 420.000 |
+| (−) Retenciones CDI (Chile + Brasil + México, 10% total) | (42.000) | (42.000) |
+| **Base IDyCB ingresos** | **378.000** | **378.000** |
+| × 0,6% | 2.268 | 2.268 |
+| → 70% costo (EERR) | 1.587,60 | 1.587,60 |
+| → 30% crédito IIGG | 680,40 | 680,40 |
 
-Acuerdo: USD 20.000 neto por episodio × 8 = **USD 160.000** en mano.  
-Tubo Quita absorbe los impuestos argentinos → gross-up.
+**IDyCB sobre costos** — base: pagos por banco (criterio xlsx — usa IVA simple sobre Gordon):
 
-**Retención CDI Argentina–UK (10%):**
-```
-Bruto = 160.000 / (1 − 0,10) = 177.777,78
-Retención a AFIP = 177.777,78 × 10% = 17.777,78
-```
-
-**IVA — Responsable sustituto (servicio prestado en AR):**
-
-El IVA como responsable sustituto es CF recuperable → no es costo económico, pero sí egreso de caja real. Fórmula del examen (gross-up IVA sobre el neto):
-```
-IVA = 160.000 × 21% / (1 − 21%) = 160.000 × 21/79 = 42.531,65
-```
-→ IVA CF recuperable al mes siguiente (no costo en P&L, sí en caja).
-
-**¿Por qué no hay retención Ganancias sobre Gordon en A2?**  
-Si Gordon graba en Chile → servicio prestado en el exterior → no hay obligación fiscal argentina sobre su honorario.
-
-### Costos totales por opción (8 episodios)
-
-| Concepto | A1 (Argentina) | A2 (Chile) |
-|---|---|---|
-| Contratación Gordon | 160.000 | 160.000 |
-| Retención Gordon (costo) | **17.777,78** | — |
-| IVA Gordon (CF recuperable) | *(42.531,65)* | — |
-| Sueldos | 40.000 | 40.000 |
-| Alojamiento | 40.000 | 32.000 |
-| IVA alojamiento (CF recuperable) | *(8.400)* | — |
+| | A1 ARG | A2 CHI |
+|---|---:|---:|
+| Contratación Gordon (neto en mano) | 160.000 | 160.000 |
+| IVA-RS Gordon a AFIP (criterio xlsx: 160k × 21%) | 33.600 | — |
+| Retención IIGG Gordon a AFIP | 17.777,78 | — |
+| Sueldo | 40.000 | 40.000 |
+| Alojamiento (neto) | 40.000 | 32.000 |
 | Viáticos y alimentos | — | 12.000 |
-| Proveedores AR | 16.000 | — |
-| IVA proveedores AR (CF recuperable) | *(3.360)* | — |
-| Proveedores Chile (con IVA chileno, irrecuperable) | — | 32.000 |
-| **Costo total en P&L** | **273.777,78** | **244.000** |
+| Proveedores AR (neto) | 16.000 | — |
+| IVA proveedores AR (pagado al prov. — base IDyCB) | 3.360 | — |
+| Proveedores CHI | — | 32.000 |
+| **Base IDyCB costos** | **310.737,78** | **276.000** |
+| × 0,6% | 1.864,43 | 1.656 |
+| → 70% costo (EERR) | 1.305,10 | 1.159,20 |
+| → 30% crédito IIGG | 559,33 | 496,80 |
 
-> Los IVA marcados con *(cursiva)* son CF recuperables → no son costos en P&L, pero sí son egresos bancarios que generan IDyCB (Ref. D).
+> **Detalle xlsx**: el cálculo de IDyCB sobre costos en A1 **no incluye el IVA alojamiento (8.400)** que sí se paga al proveedor. Es una omisión menor del xlsx cátedra (marcado BIEN RESUELTO). Preservamos el número original.
 
----
+### Bloque 2 — Estado de Resultados (EERR)
 
-## Referencia C — IDyCB sobre ingresos
-
-Cobro bancario efectivo: 420.000 − 42.000 (retenciones) = USD 378.000
-
-```
-IDyCB total   = 378.000 × 0,6% = 2.268
-Régimen Resto → 2/3 costo = 1.512 | 1/3 crédito Ganancias = 756
-```
-
----
-
-## Referencia D — IDyCB sobre egresos
-
-Base = suma de todos los egresos bancarios reales (incluyendo IVA, aunque sea recuperable).
-
-| Concepto | A1 | A2 |
-|---|---|---|
-| Gordon neto | 160.000 | 160.000 |
-| IVA Gordon (CF recuperable, pero egreso real) | 42.531,65 | — |
-| Retención Gordon a AFIP | 17.777,78 | — |
-| Sueldos | 40.000 | 40.000 |
-| Alojamiento (sin IVA para A2) | 40.000 | 32.000 |
-| IVA alojamiento AR | 8.400 | — |
-| Viáticos y alimentos | — | 12.000 |
-| Proveedores | 16.000 | 32.000 |
-| IVA proveedores AR | 3.360 | — |
-| **Total egresos bancarios** | **327.069,43** | **276.000** |
-| IDyCB (0,6%) | 1.962,42 | 1.656 |
-| **Costo (2/3)** | **1.278,68** | **1.104** |
-| Crédito Ganancias (1/3) | 639,34 | 552 |
-
-> Nota: El IVA de proveedores AR y alojamiento AR es CF recuperable para Tubo Quita (exportadora), pero es un egreso bancario real → genera IDyCB. Ídem IVA Gordon como responsable sustituto.
-
----
-
-## Resultado antes de Ganancias
-
-| Concepto | A1 | A2 |
-|---|---|---|
+| Concepto | A1 ARG | A2 CHI |
+|---|---:|---:|
 | Ingreso | 420.000 | 420.000 |
-| (−) Contratación Gordon | (160.000) | (160.000) |
-| (−) Retención Gordon | **(17.777,78)** | — |
-| (−) Sueldos | (40.000) | (40.000) |
+| (−) Contratación Gordon (neto) | (160.000) | (160.000) |
+| (−) Retención Gordon (absorbida en gross-up) | (17.777,78) | — |
+| (−) Sueldo | (40.000) | (40.000) |
 | (−) Alojamiento | (40.000) | (32.000) |
 | (−) Viáticos y alimentos | — | (12.000) |
-| (−) Proveedores | (16.000) | (32.000) |
-| (−) IDyCB ingresos (2/3) | (1.512) | (1.512) |
-| (−) IDyCB egresos (2/3) | (1.278,68) | (1.104) |
-| **Resultado antes Ganancias** | **143.431,54** | **141.384** |
+| (−) Proveedores AR | (16.000) | — |
+| (−) Proveedores CHI | — | (32.000) |
+| (−) IIBB (ingreso es exportación → exento) | — | — |
+| (−) IDyCB ingresos (70%) | (1.587,60) | (1.587,60) |
+| (−) IDyCB costos (70%) | (1.305,10) | (1.159,20) |
+| **Resultado antes IIGG** | **143.329,52** | **141.253,20** |
+| (−) IIGG (30%) | (42.998,86) | (42.375,96) |
+| (−/+) Retención cliente del exterior (10% × 420.000) | **(42.000)** *costo (fuente AR)* | (0) *tax credit cancela* |
+| ==**Resultado final**== | ==**58.330,67**== | ==**98.877,24**== |
+
+> **Cómo opera el tax credit en A2**:
+> - Retención cliente del exterior = USD 42.000.
+> - IIGG AR sobre resultado A2 = 42.375,96 → supera la retención.
+> - Tax credit imputado = USD 42.000 (queda saldo IIGG por 376 a pagar).
+> - **Efecto neto**: retención del exterior se compensa íntegramente.
+>
+> **Por qué A1 paga 42.000 extra**: fuente AR → retención del exterior es costo neto, no análogo computable como tax credit.
+
+### Bloque 3 — Cashflow / "Cuánta plata necesito"
+
+Esta es la **pregunta 2 del parcial**: cuánto dinero debe tener disponible la productora para contratar a Gordon.
+
+**A1 — Contratar Gordon en Argentina**:
+
+| Concepto | Importe |
+|---|---:|
+| Pago a Gordon (neto en mano) | 160.000 |
+| IVA-RS a AFIP (Gordon, importación de servicios usado en AR) | 42.531,65 |
+| Retención IIGG a AFIP (Gordon, benef. exterior) | 17.777,78 |
+| ==**Plata necesaria para contratar Gordon en AR**== | ==**220.309,42**== |
+
+**A2 — Contratar Gordon en Chile**:
+
+| Concepto | Importe |
+|---|---:|
+| Pago a Gordon (neto en mano) | 160.000 |
+| IVA-RS (no aplica — servicio usado en Chile) | — |
+| Retención IIGG (no aplica — Gordon no es benef. exterior con fuente AR) | — |
+| ==**Plata necesaria para contratar Gordon en CHI**== | ==**160.000**== |
+
+==**Diferencia: USD 60.309 menos disponibilidad necesaria filmando en Chile.**==
+
+> **Sobre IIBB en la contratación de Gordon** (la consigna pregunta explícitamente por "IVA, IIBB, etc"): **no aplica en ninguna alternativa.** Gordon es persona física no residente prestando un servicio puntual (8 episodios, no actividad habitual en jurisdicción) — la habitualidad necesaria para que IIBB lo alcance no se configura. Tampoco corresponde a Tubo Quita ingresar IIBB por la contratación de un proveedor (el IIBB grava ingresos del prestador, no costos del comitente). En A1 Tubo Quita sí soporta IIBB del 5%, pero sobre **sus propios ingresos por exportación** — y ese ingreso está **exento** por exportación de servicios, así que tampoco entra IIBB por ese lado.
 
 ---
 
-## Ganancias y retenciones
+## Respuesta final
 
-**A1 — Fuente argentina:**
-- Retenciones CDI de Chile/Brasil/México → **COSTO** (no tax credit: fuente argentina)
-- Ganancias = 143.431,54 × 30% = **43.029,46** (paga a AFIP)
-- Retenciones (costo adicional) = **42.000**
+### Pregunta 1 — ¿Qué alternativa conviene?
 
-**A2 — Fuente extranjera:**
-- Retenciones CDI → **TAX CREDIT** (compensa contra Ganancias AR)
-- Ganancias = 141.384 × 30% = **42.415,20** (bruto)
-- Tax credit disponible: 42.000 → Ganancias neta AFIP = 415,20
-- Costo económico total de Ganancias: 42.415,20 (42.000 ya pagados vía retenciones + 415,20 a AFIP)
+==**Acepto la propuesta de hacerlo en Chile (A2)**: rentabilidad sobre costos = **30,79%** (≥ umbral 30%), contra **16,13%** en Argentina (A1).==
 
----
+| | A1 ARG | A2 CHI |
+|---|---:|---:|
+| Resultado final | 58.330,67 | **98.877,24** |
+| Costos totales | 361.669,33 | 321.122,76 |
+| **Rentabilidad sobre costos** | **16,13%** ❌ | **30,79%** ✅ |
 
-## Resultado final y rentabilidad
+A1 queda **por debajo del umbral del 30%** → se rechaza esa alternativa.
 
-| Concepto | A1 | A2 |
-|---|---|---|
-| Resultado antes Ganancias | 143.431,54 | 141.384 |
-| (−) Ganancias | (43.029,46) | (42.415,20) |
-| (−) Retenciones (costo en A1) | **(42.000)** | — *(tax credit)* |
-| ==**Resultado final**== | ==**58.402,08**== | ==**98.968,80**== |
-| Costos totales | 361.597,92 | 321.031,20 |
-| **Rentabilidad sobre costos** | **16,15%** | **30,83%** |
-| Criterio (≥ 30%) | ❌ RECHAZA | ✅ ACEPTA |
+A2 supera el umbral por margen estrecho (0,79 pp) → se acepta.
 
----
+**Por qué A2 > A1 (diferencia USD 40.546,57)**:
+1. **Tax credit cancela la retención del exterior** (ahorro USD 42.000 en A2).
+2. **No hay gross-up sobre Gordon** (ahorro USD 17.777,78 de retención absorbida).
+3. **No hay IVA-RS upfront** (no afecta resultado pero sí caja).
+4. Solo se compensa parcialmente con costos chilenos algo más altos en viáticos y alojamiento marginal.
 
-## Respuestas
+### Pregunta 2 — ¿Cuánta plata para contratar Gordon?
 
-### i) ¿Se acepta la propuesta?
+==**Filmando en Argentina: USD 220.309,42** (160.000 neto + 42.531,65 IVA-RS + 17.777,78 retención IIGG).==
 
-==**SÍ se acepta, pero SOLO la Opción A2 (grabar en Chile).**==
-
-- A1 (Argentina): 16,15% sobre costos → **bajo el umbral mínimo del 30%** → se descarta.
-- A2 (Chile): 30,83% sobre costos → **supera el mínimo requerido** → se acepta.
-
-### ii) ¿Cuánto dinero se necesita para contratar a Gordon Ramsay?
-
-| Concepto | Gordon en Argentina | Gordon en Chile |
-|---|---|---|
-| Honorario neto | 160.000 | 160.000 |
-| Retención CDI AR–UK (costo absorbido) | 17.777,78 | — |
-| IVA responsable sustituto (CF recuperable, necesidad financiera) | 42.531,65 | — |
-| **Total necesario** | ==**220.309,43**== | ==**160.000**== |
-
-> El IVA (42.531,65) es CF recuperable al mes siguiente, pero representa una necesidad financiera real hasta su recupero.  
-> En Chile: no hay retención ni IVA argentino → solo el honorario neto.
+==**Filmando en Chile: USD 160.000** (solo el neto a Gordon, sin retenciones AR).==
 
 ---
 
-## Por qué este parcial
+## Por qué este ejercicio
 
-Evalúa 6 conceptos integrados en una sola decisión de producción:
+1. ==**Fuente Ganancias es bilateral**==: define el tratamiento de la productora (tax credit sí/no) Y del actor (retención + IVA-RS sí/no). En A1 ambos caen como costos AR; en A2 ninguno.
+2. ==**Doble gross-up en A1**==: retención IIGG sobre Gordon (USD 17.777,78) + IVA-RS sobre Gordon (USD 42.531,65) — ambos a cargo de la productora porque Gordon cobra "neto en mano".
+3. ==**Rentabilidad sobre costos como criterio de decisión**==: resultado positivo no alcanza; hay que dividir resultado / costos y compararlo con el umbral exigido (≥ 30%).
+4. ==**Plata necesaria ≠ resultado**==: el IVA-RS es neutro económicamente (recuperable como CF) pero **outflow inmediato**. La pregunta 2 mide caja, no P&L.
+5. ==**IDyCB en este parcial usa split 70/30**== (no 67/33 como CLAUDE.md). Atender a esta diferencia.
 
-1. ==**Distribución de uso → exportación total**==: la proporción de ventas (Chile 10%, Brasil 40%, México 50%) determina que el 100% del servicio se usa en el exterior → IVA tasa 0%, IIBB exenta en ambas opciones.
-
-2. ==**Lugar de prestación del servicio determina fuente y tax credit**==: filmado en Argentina = fuente argentina → retenciones CDI son costo. Filmado en Chile = fuente extranjera → retenciones CDI son tax credit.
-
-3. ==**Gross-up cuando el proveedor cobra neto de impuestos**==: Gordon recibe 160.000 en mano → hay que gross-up para determinar cuánto debe facturar Tubo Quita como base de retención.
-
-4. ==**IVA responsable sustituto: no costo, pero sí necesidad financiera**==: el IVA de Gordon (servicio en AR) es CF recuperable el mes siguiente → no aparece en el P&L como costo, pero Tubo Quita necesita 42.531,65 de liquidez hasta recuperarlo.
-
-5. ==**IDyCB sobre todos los egresos bancarios**==: incluyendo el IVA pagado como responsable sustituto, aunque sea recuperable → genera IDyCB sobre el egreso real.
-
-6. ==**Rentabilidad sobre costos como criterio de decisión**==: no basta con que el resultado sea positivo; hay que verificar que rentabilidad = resultado / costos ≥ 30%.
-
-**Errores típicos de este parcial:**
-- Incluir el IVA de Gordon como costo (no lo es: es CF recuperable)
-- Tratar las retenciones CDI como tax credit en A1 (fuente argentina = costo, no crédito)
-- No calcular la distribución de uso (Chile/Brasil/México) antes de encuadrar IVA e IIBB
-- No incluir el IVA de alojamiento/proveedores AR en la base de IDyCB egresos
-- Calcular rentabilidad sobre ingreso en vez de sobre costos
+**Errores típicos a evitar**:
+- Computar tax credit en A1 (fuente AR) — está mal.
+- Olvidar el gross-up sobre Gordon en A1 (USD 17.777,78 que la productora absorbe).
+- No incluir el IVA-RS en la pregunta 2 ("cuánta plata necesito") — sin esos USD 42.531,65 la productora no puede ejecutar el pago, aunque económicamente sea neutro.
+- Aplicar IIBB sobre los USD 420.000 — son exportación de servicios al exterior → exento.
+- Aplicar IVA sobre los USD 420.000 — exportación → tasa 0%.
